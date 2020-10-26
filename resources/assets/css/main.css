@@ -987,6 +987,10 @@ legend {
   box-shadow: none;
 }
 
+#privacyPolice {
+  background: white; margin-top: 15px; padding: 10px 20px 5px 20px;
+}
+
 @media screen and (max-width: 992px) {
   .s003 form .inner-form .input-field {
     height: 50px;
