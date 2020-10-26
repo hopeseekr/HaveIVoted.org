@@ -7,6 +7,7 @@
     <meta name="author" content="colorlib.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" integrity="sha512-ryjtnwPDaox3otqxhS/cCqCQCE7/mfHbfbfu+87WdRnn5bHxtTqti5q+TWnNUI3MHwABP98M01mT+7Ocqwk55g==" crossorigin="anonymous" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">

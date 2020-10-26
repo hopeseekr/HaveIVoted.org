@@ -34,7 +34,7 @@ class VoterController extends Controller
             ->orderBy('last_name')
             ->orderBy('given_names')
             ->orderBy('recorded_on')
-        ->paginate(100);
+        ->paginate(25);
 
         return new JsonResponse($voters);
     }
