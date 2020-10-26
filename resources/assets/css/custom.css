@@ -34,9 +34,30 @@ input[type="text"] {
 }
 
 .supported-states-box {
-    background: red; padding: 10px 0; margin-bottom: 10px !important; color: white; text-align: center
+    background: red; padding: 10px; margin-bottom: 10px !important; color: white;
 }
 
+.supported-states-box h3 {
+    text-align: center;
+}
+
+.voter-search input[type="text"] {
+    text-transform: uppercase;
+}
+
+.voter-results {
+    background: white;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.voter-results #votersTable {
+    width: 100%;
+}
+
+.voter-results #votersTable th {
+    text-align: left !important;
+}
 
 @media only screen and (max-width: 1024px) {
     .s003 {

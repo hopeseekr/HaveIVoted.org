@@ -4,9 +4,11 @@
     <div class="container">
         <div class="supported-states-box">
             <h3>Only the State of Texas is supported as of now.</h3>
+            <div class="errors"></div>
         </div>
         <form>
-            <div class="inner-form">
+            <input type="hidden" id="state" value="TX" />
+            <div class="inner-form voter-search">
 {{--                <div class="input-field first-wrap" style="margin-right: 15px"  >--}}
 {{--                    <div class="input-select">--}}
 {{--                        <div class="autocomplete" style="width:300px;">--}}
@@ -35,7 +37,27 @@
             </div>
         </form>
     </div>
-    <div class="voter-results" style="display: none">
+    <div class="voter-results">
         <a href="#voter-results"></a>
+        <table id="votersTable">
+            <thead>
+                <tr>
+                    <th>Last Name</th>
+                    <th>First Name(s)</th>
+                    <th>County</th>
+                    <th>Precinct</th>
+                    <th>Recorded on</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="voter-details">
+                    <td class="last_name"></td>
+                    <td class="given_names"></td>
+                    <td class="county"></td>
+                    <td class="precinct"></td>
+                    <td class="recorded_on"></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 @endsection

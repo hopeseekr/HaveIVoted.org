@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\VoterController;
 use Illuminate\Http\Request;
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/voters/{state}/', [VoterController::class, 'search']);
