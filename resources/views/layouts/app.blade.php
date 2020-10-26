@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" integrity="sha512-ryjtnwPDaox3otqxhS/cCqCQCE7/mfHbfbfu+87WdRnn5bHxtTqti5q+TWnNUI3MHwABP98M01mT+7Ocqwk55g==" crossorigin="anonymous" />
     <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@hopeseekr">
-    <meta name="twitter:title" content="Have I Voted.org">
-    <meta name="twitter:description" content="Quickly find out if your vote has been properly counted. Find out if your family and friends have already voted.">
-    <meta name="twitter:image" content="https://www.haveivoted.org/images/haveivoted.jpg">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@hopeseekr" />
+    <meta name="twitter:title" content="Have I Voted.org – Let's get 100% voter turnout!" />
+    <meta name="twitter:description" content="Quickly find out if your vote has been properly counted. Find out if your family and friends have already voted." />
+    <meta name="twitter:image" content="https://www.haveivoted.org/images/haveivoted.jpg" />
 </head>
 <body>
 <div class="s003">
