@@ -28,9 +28,19 @@
     </div>
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
-<script src="{{ asset('js/all.js') }}"></script>
+<script async src="{{ asset('js/all.js') }}"></script>
 {{--<script src="//rawgithub.com/indrimuska/jquery-editable-select/master/dist/jquery-editable-select.min.js"></script>--}}
 {{--<link href="//rawgithub.com/indrimuska/jquery-editable-select/master/dist/jquery-editable-select.min.css" rel="stylesheet">--}}
-<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js" integrity="sha512-Yblu1vNh895IOJ7j81oA+g0K/Rjv09fbssEw/I7EhszcLxJRp59fe4SUBsBP/6sdJHEGSZAglqyhO1TeYHhyKw==" crossorigin="anonymous"></script>
+<script async src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js" integrity="sha512-Yblu1vNh895IOJ7j81oA+g0K/Rjv09fbssEw/I7EhszcLxJRp59fe4SUBsBP/6sdJHEGSZAglqyhO1TeYHhyKw==" crossorigin="anonymous"></script>
+<!-- HaveIVoted.org -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BMVJ30H88L"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BMVJ30H88L');
+</script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
