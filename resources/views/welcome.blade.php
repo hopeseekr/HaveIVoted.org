@@ -77,6 +77,7 @@
                     </a>
                 </li>
             </ul>
+            <div id="totalVoters"><strong>Total:</strong> <span id="voterCount"></span></div>
         </nav>
     </div>
 @endsection

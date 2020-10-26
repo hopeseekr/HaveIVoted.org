@@ -70,7 +70,14 @@ input[type="text"] {
 }
 
 .voter-results nav#votersNav {
+    position: relative;
     height: 20px;
+}
+
+.voter-results nav#votersNav #totalVoters {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 @media only screen and (max-width: 1024px) {

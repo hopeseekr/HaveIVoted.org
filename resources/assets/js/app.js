@@ -60,16 +60,17 @@ function fetchVoters(pageNum)
 
     const $votersTable = $('#votersTable');
     const $voterDetails = $('#votersTable .voter-details:first');
+    const $voterResults = $('.voter-results');
 
     $votersTable.show();
     $("#votersTable > tbody").html('');
 
     $("body").css("cursor", "progress");
     $('#votersNav .current a').text(voterPageNum);
+    $voterResults.find('#voterCount').text('');
 
     $.post('/api/voters/' + state + '/?page=' + pageNum, payload)
         .done(function (response) {
-            const $voterResults = $('.voter-results');
             $voterResults.show();
             // $voterResults.html(JSON.stringify(response.data));
 
@@ -84,7 +85,9 @@ function fetchVoters(pageNum)
                 $newVoterDetails.find('.recorded_on').html(voter.recorded_on);
 
                 $votersTable.append($newVoterDetails);
-            })
+            });
+
+            $voterResults.find('#voterCount').text(response.total);
         })
         .fail(function (data) {
             var response = JSON.parse(data.responseText);
