@@ -49,9 +49,16 @@ input[type="text"] {
 }
 
 .voter-results {
+    width: 100%;
     background: white;
     margin-top: 15px;
     padding: 20px;
+    padding-bottom: 5px;
+    min-height: 720px;
+}
+
+.voter-results #votersBox {
+    min-height: 666px;
 }
 
 .voter-results #votersTable {
@@ -60,6 +67,10 @@ input[type="text"] {
 
 .voter-results #votersTable th {
     text-align: left !important;
+}
+
+.voter-results nav#votersNav {
+    height: 20px;
 }
 
 @media only screen and (max-width: 1024px) {

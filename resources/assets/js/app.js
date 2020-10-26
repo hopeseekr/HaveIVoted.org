@@ -61,6 +61,7 @@ function fetchVoters(pageNum)
     const $votersTable = $('#votersTable');
     const $voterDetails = $('#votersTable .voter-details:first');
 
+    $votersTable.show();
     $("#votersTable > tbody").html('');
 
     $("body").css("cursor", "progress");

@@ -39,37 +39,39 @@
     </div>
     <div class="voter-results">
         <a href="#voter-results"></a>
-        <table id="votersTable">
-            <thead>
-                <tr>
-                    <th>Last Name</th>
-                    <th>First Name(s)</th>
-                    <th>County</th>
-                    <th>Precinct</th>
-                    <th>Recorded on</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="voter-details">
-                    <td class="last_name"></td>
-                    <td class="given_names"></td>
-                    <td class="county"></td>
-                    <td class="precinct"></td>
-                    <td class="recorded_on"></td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="votersBox">
+            <table id="votersTable">
+                <thead>
+                    <tr>
+                        <th>Last Name</th>
+                        <th>First Name(s)</th>
+                        <th>County</th>
+                        <th>Precinct</th>
+                        <th>Recorded on</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="voter-details">
+                        <td class="last_name"></td>
+                        <td class="given_names"></td>
+                        <td class="county"></td>
+                        <td class="precinct"></td>
+                        <td class="recorded_on"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <nav id="votersNav" aria-label="">
             <ul class="pagination">
                 <li class="page-item prev">
-                    <a class="page-link" href="#" aria-label="Previous">
+                    <a class="page-link" href="#voter-results" aria-label="Previous">
                         <span aria-hidden="true">&laquo;</span>
                         <span class="sr-only">Previous</span>
                     </a>
                 </li>
-                <li class="page-item current"><a class="page-link" href="#">1</a></li>
+                <li class="page-item current"><a class="page-link" href="#voter-results">1</a></li>
                 <li class="page-item next">
-                    <a class="page-link" href="#" aria-label="Next">
+                    <a class="page-link" href="#voter-results" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
                         <span class="sr-only">Next</span>
                     </a>
