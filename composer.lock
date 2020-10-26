@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e69c72fb67ee13cde314ff1c1d0686de",
+    "content-hash": "22f57f1d0b0cb032a207883603ea73b0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1364,6 +1364,60 @@
                 "laravel"
             ],
             "time": "2020-10-25T16:25:20+00:00"
+        },
+        {
+            "name": "phpexperts/csv-speaker",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPExpertsInc/CSVSpeaker.git",
+                "reference": "a8687083b0b56f9bd3d2b8e5d3aa8976422f5989"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPExpertsInc/CSVSpeaker/zipball/a8687083b0b56f9bd3d2b8e5d3aa8976422f5989",
+                "reference": "a8687083b0b56f9bd3d2b8e5d3aa8976422f5989",
+                "shasum": ""
+            },
+            "require": {
+                "ext-spl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "mockery/mockery": "^1.0",
+                "phpstan/phpstan": "^0.11.5",
+                "phpunit/phpunit": "^7.0",
+                "symfony/var-dumper": "^4.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPExperts\\CSVSpeaker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP Experts, Inc.",
+                    "homepage": "https://www.phpexperts.pro/"
+                },
+                {
+                    "name": "Theodore R. Smith",
+                    "homepage": "https://www.linkedin.com/in/hopeseekr"
+                }
+            ],
+            "description": "A quick and easy package for easily reading and writing CSV to/from strings and arrays.",
+            "homepage": "https://www.phpexperts.pro/",
+            "keywords": [
+                "Simple",
+                "csv",
+                "easy"
+            ],
+            "time": "2020-10-25T19:57:09+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -5945,7 +5999,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3"
+        "php": ">=7.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

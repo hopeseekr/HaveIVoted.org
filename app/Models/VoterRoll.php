@@ -14,12 +14,15 @@ use PHPExperts\ConciseUuid\ConciseUuidModel;
  * @property int    $voter_id
  * @property string $voting_method
  * @property int    $precinct
+ * @property string $vote_recorded_on
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property County $county
  */
-class VoterRollTX extends ConciseUuidModel
+class VoterRoll extends ConciseUuidModel
 {
+    protected $table = 'voter_rolls';
+
     // Allow every column to be written to.
     protected $guarded = [];
 

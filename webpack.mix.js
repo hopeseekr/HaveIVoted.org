@@ -12,4 +12,23 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   .combine([
+       'resources/assets/js/theme.js',
+       'resources/assets/js/extension/*.js',
+   ], 'public/js/all.js')
+   .styles([
+       'resources/assets/css/main.css',
+       'resources/assets/css/custom.css',
+   ], 'public/css/all.css')
+;
+// mix.js('resources/assets/js/app.js', 'public/js')
+//     .scripts([
+//         'resources/assets/js/extension/choices.js',
+//         'resources/assets/js/extension/custom-materialize.js',
+//         'resources/assets/js/extension/flatpickr.js',
+//         'resources/assets/js/theme.js'
+//     ], 'public/js/all2.js')
+//     .styles([
+//         'resources/assets/css/main.css'
+//     ], 'public/css/all.css')
+// ;

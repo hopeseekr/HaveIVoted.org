@@ -14,14 +14,15 @@ class CreateTXVoterRollsTable extends Migration
     public function up()
     {
         // "COUNTY","VOTER_NAME","ID_VOTER","VOTING_METHOD","PRECINCT"
-        Schema::create('voter_rolls_tx', function (Blueprint $table) {
+        Schema::create('voter_rolls', function (Blueprint $table) {
             $table->char('id', 22);
             $table->char('county_id', 22);
             $table->string('last_name');
             $table->string('given_names');
-            $table->integer('voter_id');
+            $table->bigInteger('voter_id');
             $table->string('voting_method');
-            $table->integer('precinct');
+            $table->string('precinct');
+            $table->date('recorded_on');
 
             $table->timestamps();
 
@@ -30,6 +31,7 @@ class CreateTXVoterRollsTable extends Migration
             $table->index('given_names');
             $table->index(['last_name', 'given_names']);
             $table->index('voting_method');
+            $table->index('recorded_on');
 
             $table->foreign('county_id')
                 ->references('id')
@@ -44,6 +46,6 @@ class CreateTXVoterRollsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('voter_rolls_tx');
+        Schema::dropIfExists('voter_rolls');
     }
 }
