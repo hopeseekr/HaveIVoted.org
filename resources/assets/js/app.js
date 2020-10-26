@@ -59,11 +59,12 @@ function fetchVoters(pageNum)
     };
 
     const $votersTable = $('#votersTable');
-    const $voterDetails = $('#votersTable .voter-details:first');
+    const $voterDetails = $('#votersTable .voter-details:first').clone();
     const $voterResults = $('.voter-results');
 
     $votersTable.show();
     $("#votersTable > tbody").html('');
+    $votersTable.append($voterDetails);
 
     $("body").css("cursor", "progress");
     $('#votersNav .current a').text(voterPageNum);
