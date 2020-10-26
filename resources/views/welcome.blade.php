@@ -81,13 +81,4 @@
         </nav>
     </div>
 
-    <div id="privacyPolice">
-        <h4>Privacy Policy</h4>
-        <ul>
-            <li>Basic Google Analytics.</li>
-            <li>No server logs of searches.</li>
-            <li>Hosted in Germany and fully compliant with the GDPR.</li>
-        </ul>
-    </div>
-
 @endsection

@@ -25,6 +25,17 @@
     </div>
     <div class="main">
         @yield('content')
+
+        <div id="privacyPolice">
+            <h4>Privacy Policy</h4>
+            <ul>
+                <li>Basic Google Analytics.</li>
+                <li>No server logs of searches.</li>
+                <li>Hosted in Germany and fully compliant with the GDPR.</li>
+                <li><strong>Open Sourced: <a href="https://github.com/hopeseekr/HaveIVoted.org" target="_blank">GitHub repo</a></strong></li>
+            </ul>
+
+        </div>
     </div>
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
