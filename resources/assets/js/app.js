@@ -98,6 +98,13 @@ function fetchVoters(pageNum)
 $(document).ready(function () {
     // $('#county').editableSelect();
 
+    $('input#givenNames').keypress(function (e) {
+        const keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode === 13) {
+            fetchVoters(1);
+        }
+    });
+
     $('.btn-search').click(function () {
         fetchVoters(1);
     });
