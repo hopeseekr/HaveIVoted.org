@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="supported-states-box">
+            <h3>Only the State of Texas is supported as of now.</h3>
+        </div>
         <form>
             <div class="inner-form">
 {{--                <div class="input-field first-wrap" style="margin-right: 15px"  >--}}
@@ -34,6 +37,5 @@
     </div>
     <div class="voter-results" style="display: none">
         <a href="#voter-results"></a>
-
     </div>
 @endsection

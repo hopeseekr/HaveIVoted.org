@@ -33,6 +33,10 @@ input[type="text"] {
     font-size: 22px !important;;
 }
 
+.supported-states-box {
+    background: red; padding: 10px 0; margin-bottom: 10px !important; color: white; text-align: center
+}
+
 
 @media only screen and (max-width: 1024px) {
     .s003 {
