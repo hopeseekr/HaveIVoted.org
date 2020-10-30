@@ -43,7 +43,7 @@ class RecordVoterRollsTX extends Command
 
             $voterCount = count($voters);
             $counts[$county] = ($counts[$county] ?? 0) + $voterCount;
-            dump(sprintf("Recording %5s voters [{$counts[$county]}] on $votingDate in $county County, TX, to the database...", $voterCount));
+            dump(sprintf("Recording %5s voters [%7s] on $votingDate in $county County, TX...", $voterCount, $counts[$county]));
             VoterRoll::query()->insert($voters);
         };
 
