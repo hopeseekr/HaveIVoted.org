@@ -1,4 +1,4 @@
-    county     |      last_name       |       given_names        |  voter_id  | voting_method | precinct | recorded_on 
+    county     |      last_name       |       given_names        |  voter_id  | voting_method | precinct | recorded_on
 ---------------+----------------------+--------------------------+------------+---------------+----------+-------------
  ANGELINA      | CHANCE               | LORINE JONES             | 1031626599 | MAIL-IN       | 15       | 2020-10-16
  ANGELINA      | CHANCE               | LORINE JONES             | 1031626599 | IN-PERSON     | 15       | 2020-10-15
@@ -18173,206 +18173,211 @@
 
 
 SQL to Reproduce:
-    SELECT 
-        county, last_name, given_names, v.voter_id, 
+    SELECT
+        county, last_name, given_names, v.voter_id,
         voting_method, precinct, recorded_on
-    FROM voter_rolls_v2 v 
+    FROM voter_rolls_v2 v
     JOIN (
-        SELECT voter_id, COUNT(*) 
-        FROM voter_rolls_v2 
-        WHERE voter_id != 0 
-        GROUP BY voter_id 
+        SELECT voter_id, COUNT(*)
+        FROM voter_rolls_v2
+        WHERE voter_id != 0
+        GROUP BY voter_id
         HAVING COUNT(*) > 1
     ) v2 ON v2.voter_id=v.voter_id
     ORDER BY county, v.last_name, v.given_names;
 
-Dupes by county:
+County Stats:
 
-    county     | count 
----------------+-------
- DEWITT        |  7410
- LIBERTY       |  2339
- VAL VERDE     |  1022
- JASPER        |   856
- FAYETTE       |   640
- TYLER         |   518
- MCCULLOCH     |   480
- LAMAR         |   371
- JIM WELLS     |   364
- JOHNSON       |   346
- ZAPATA        |   256
- FREESTONE     |   248
- COLEMAN       |   242
- FALLS         |   138
- BRAZORIA      |   131
- FRIO          |   114
- GOLIAD        |   111
- THROCKMORTON  |   106
- DALLAS        |   100
- HARRIS        |    96
- KNOX          |    91
- GRAY          |    82
- MONTGOMERY    |    72
- REAL          |    70
- DELTA         |    68
- RANDALL       |    66
- GONZALES      |    62
- CAMP          |    60
- NACOGDOCHES   |    60
- PARKER        |    60
- COCHRAN       |    58
- WILSON        |    56
- REEVES        |    54
- BEXAR         |    53
- SCURRY        |    52
- FANNIN        |    50
- BROOKS        |    50
- MENARD        |    48
- LYNN          |    46
- JEFFERSON     |    42
- GALVESTON     |    37
- HAMILTON      |    37
- KENT          |    34
- TRINITY       |    30
- ARCHER        |    30
- ZAVALA        |    29
- WINKLER       |    28
- MOTLEY        |    26
- HANSFORD      |    24
- NEWTON        |    24
- MILLS         |    22
- TARRANT       |    21
- KERR          |    20
- DAWSON        |    20
- MORRIS        |    20
- NAVARRO       |    19
- MARTIN        |    18
- STARR         |    18
- WILLACY       |    18
- FORT BEND     |    18
- LASALLE       |    18
- BRAZOS        |    18
- CONCHO        |    18
- MCMULLEN      |    18
- HUNT          |    18
- CORYELL       |    17
- COLLIN        |    16
- HOCKLEY       |    14
- JACKSON       |    14
- HARDEMAN      |    14
- AUSTIN        |    14
- EL PASO       |    13
- WICHITA       |    13
- WISE          |    12
- CALDWELL      |    11
- VAN ZANDT     |    11
- TERRELL       |    10
- HOOD          |    10
- DICKENS       |    10
- SMITH         |    10
- CULBERSON     |    10
- COMAL         |     9
- WILLIAMSON    |     9
- WOOD          |     8
- LIMESTONE     |     8
- BOSQUE        |     8
- PRESIDIO      |     8
- DUVAL         |     8
- MARION        |     8
- BURLESON      |     8
- ANGELINA      |     7
- HIDALGO       |     7
- ARMSTRONG     |     6
- POLK          |     6
- TRAVIS        |     6
- COKE          |     6
- KENDALL       |     6
- DONLEY        |     6
- SHELBY        |     5
- WALKER        |     5
- KAUFMAN       |     5
- HARRISON      |     4
- LAVACA        |     4
- KARNES        |     4
- JEFF DAVIS    |     4
- MASON         |     4
- HUDSPETH      |     4
- HAYS          |     4
- PECOS         |     4
- ECTOR         |     4
- DENTON        |     4
- CROCKETT      |     4
- STEPHENS      |     4
- STERLING      |     4
- COLLINGSWORTH |     4
- TOM GREEN     |     4
- UVALDE        |     4
- CHAMBERS      |     4
- WILBARGER     |     4
- BOWIE         |     4
- BLANCO        |     4
- BELL          |     3
- MEDINA        |     3
- ROBERTSON     |     3
- REFUGIO       |     2
- ROCKWALL      |     2
- RUNNELS       |     2
- RUSK          |     2
- SABINE        |     2
- SAN SABA      |     2
- CAMERON       |     2
- KLEBERG       |     2
- HOWARD        |     2
- DIMMIT        |     2
- CASS          |     2
- VICTORIA      |     2
- HOPKINS       |     2
- HILL          |     2
- KIMBLE        |     2
- WEBB          |     2
- HARDIN        |     2
- GRIMES        |     2
- PANOLA        |     2
- ERATH         |     2
- ELLIS         |     2
- CROSBY        |     2
- YOAKUM        |     2
- BROWN         |     2
- LAMPASAS      |     2
- COOKE         |     2
- BORDEN        |     2
- ARANSAS       |     2
- LLANO         |     2
- CLAY          |     2
- IRION         |     1
- GRAYSON       |     1
- SOMERVELL     |     1
- CHEROKEE      |     1
- SAN PATRICIO  |     1
- ATASCOSA      |     1
- NUECES        |     1
- WASHINGTON    |     1
- LUBBOCK       |     1
- GUADALUPE     |     1
- ROBERTS       |     1
+    county     | count | republican | democrat
+---------------+-------+------------+----------
+ DEWITT        |  7410 |      80.77 |    17.02
+ LIBERTY       |  2339 |      78.06 |    20.08
+ VAL VERDE     |  1022 |      43.46 |    51.35
+ JASPER        |   856 |      79.23 |    19.34
+ FAYETTE       |   640 |      78.41 |    19.29
+ TYLER         |   518 |      82.83 |    15.60
+ MCCULLOCH     |   480 |      82.50 |    15.55
+ LAMAR         |   371 |      78.47 |    19.31
+ JIM WELLS     |   364 |      43.83 |    54.17
+ JOHNSON       |   346 |      77.48 |    19.17
+ ZAPATA        |   256 |      32.80 |    65.60
+ FREESTONE     |   248 |      78.80 |    19.20
+ COLEMAN       |   242 |      87.40 |    10.65
+ FALLS         |   138 |      65.71 |    32.15
+ BRAZORIA      |   131 |      60.40 |    35.81
+ FRIO          |   114 |      45.92 |    52.22
+ GOLIAD        |   111 |      70.51 |    26.21
+ THROCKMORTON  |   106 |      88.49 |    10.40
+ DALLAS        |   100 |      34.89 |    61.13
+ HARRIS        |    96 |      41.83 |    54.22
+ KNOX          |    91 |      79.38 |    18.19
+ GRAY          |    82 |      88.25 |     9.50
+ MONTGOMERY    |    72 |      73.95 |    22.52
+ REAL          |    70 |      82.36 |    15.61
+ DELTA         |    68 |      80.56 |    17.55
+ RANDALL       |    66 |      80.61 |    15.50
+ GONZALES      |    62 |      72.65 |    24.86
+ CAMP          |    60 |      70.48 |    27.74
+ NACOGDOCHES   |    60 |      65.76 |    30.41
+ PARKER        |    60 |      82.31 |    14.76
+ COCHRAN       |    58 |      75.36 |    21.09
+ WILSON        |    56 |      72.66 |    24.88
+ REEVES        |    54 |      44.50 |    52.10
+ BEXAR         |    53 |      40.98 |    54.47
+ SCURRY        |    52 |      83.69 |    13.93
+ FANNIN        |    50 |      79.65 |    17.73
+ BROOKS        |    50 |      23.61 |    74.61
+ MENARD        |    48 |      79.19 |    17.79
+ LYNN          |    46 |      77.42 |    20.18
+ JEFFERSON     |    42 |      49.02 |    48.54
+ GALVESTON     |    37 |      59.33 |    36.70
+ HAMILTON      |    37 |      84.68 |    13.27
+ KENT          |    34 |      83.14 |    13.63
+ TRINITY       |    30 |      79.19 |    19.29
+ ARCHER        |    30 |      88.66 |     9.23
+ ZAVALA        |    29 |      20.41 |    77.67
+ WINKLER       |    28 |      74.91 |    22.42
+ MOTLEY        |    26 |      92.10 |     6.45
+ HANSFORD      |    24 |      88.85 |     8.78
+ NEWTON        |    24 |      73.84 |    24.39
+ MILLS         |    22 |      87.09 |    10.81
+ TARRANT       |    21 |      52.15 |    43.45
+ KERR          |    20 |      76.47 |    20.20
+ DAWSON        |    20 |      74.00 |    23.44
+ MORRIS        |    20 |      69.36 |    28.71
+ NAVARRO       |    19 |      73.15 |    24.40
+ MARTIN        |    18 |      82.79 |    15.16
+ STARR         |    18 |      18.97 |    79.09
+ WILLACY       |    18 |      30.32 |    67.22
+ FORT BEND     |    18 |      45.02 |    51.65
+ LASALLE       |    18 |      42.46 |    54.90
+ BRAZOS        |    18 |      58.55 |    34.89
+ CONCHO        |    18 |      82.94 |    13.87
+ MCMULLEN      |    18 |      91.35 |     8.05
+ HUNT          |    18 |      76.53 |    20.21
+ CORYELL       |    17 |      67.37 |    27.90
+ COLLIN        |    16 |      56.20 |    39.22
+ HOCKLEY       |    14 |      79.55 |    17.26
+ JACKSON       |    14 |      80.87 |    17.14
+ HARDEMAN      |    14 |      79.88 |    16.48
+ AUSTIN        |    14 |      78.64 |    18.92
+ EL PASO       |    13 |      25.93 |    69.14
+ WICHITA       |    13 |      72.82 |    23.08
+ WISE          |    12 |      83.76 |    13.84
+ CALDWELL      |    11 |      55.65 |    39.82
+ VAN ZANDT     |    11 |      85.00 |    12.87
+ TERRELL       |    10 |      65.68 |    32.04
+ HOOD          |    10 |      81.80 |    15.32
+ DICKENS       |    10 |      83.06 |    14.08
+ SMITH         |    10 |      70.50 |    26.61
+ CULBERSON     |    10 |      36.75 |    59.58
+ COMAL         |     9 |      73.08 |    23.01
+ WILLIAMSON    |     9 |      51.88 |    42.02
+ WOOD          |     8 |      84.10 |    14.07
+ LIMESTONE     |     8 |      75.14 |    22.86
+ BOSQUE        |     8 |      81.12 |    16.38
+ PRESIDIO      |     8 |      29.60 |    66.18
+ DUVAL         |     8 |      31.64 |    66.92
+ MARION        |     8 |      70.57 |    27.48
+ BURLESON      |     8 |      76.54 |    21.47
+ ANGELINA      |     7 |      72.53 |    25.24
+ HIDALGO       |     7 |      28.10 |    68.64
+ ARMSTRONG     |     6 |      90.86 |     6.88
+ POLK          |     6 |      77.19 |    20.68
+ TRAVIS        |     6 |      27.40 |    66.26
+ COKE          |     6 |      88.90 |     9.84
+ KENDALL       |     6 |      78.57 |    18.22
+ DONLEY        |     6 |      83.90 |    13.01
+ SHELBY        |     5 |      79.05 |    19.37
+ WALKER        |     5 |      65.43 |    30.92
+ KAUFMAN       |     5 |      72.08 |    25.05
+ HARRISON      |     4 |      70.98 |    27.04
+ LAVACA        |     4 |      85.01 |    13.55
+ KARNES        |     4 |      70.70 |    27.34
+ JEFF DAVIS    |     4 |      59.06 |    35.91
+ MASON         |     4 |      80.66 |    17.19
+ HUDSPETH      |     4 |      57.75 |    37.20
+ HAYS          |     4 |      47.16 |    46.30
+ PECOS         |     4 |      59.11 |    37.22
+ ECTOR         |     4 |      68.67 |    28.11
+ DENTON        |     4 |      57.68 |    37.51
+ CROCKETT      |     4 |      70.25 |    26.67
+ STEPHENS      |     4 |      87.84 |    10.08
+ STERLING      |     4 |      86.73 |    11.06
+ COLLINGSWORTH |     4 |      85.18 |    12.56
+ TOM GREEN     |     4 |      71.85 |    23.93
+ UVALDE        |     4 |      54.03 |    43.23
+ CHAMBERS      |     4 |      79.70 |    17.64
+ WILBARGER     |     4 |      77.20 |    19.68
+ BOWIE         |     4 |      72.27 |    25.62
+ BLANCO        |     4 |      74.30 |    21.94
+ BELL          |     3 |      55.09 |    40.01
+ MEDINA        |     3 |      70.13 |    26.90
+ ROBERTSON     |     3 |      66.55 |    31.43
+ REFUGIO       |     2 |      62.14 |    35.11
+ ROCKWALL      |     2 |      71.84 |    24.37
+ RUNNELS       |     2 |      86.08 |    12.01
+ RUSK          |     2 |      77.26 |    20.72
+ SABINE        |     2 |      86.00 |    13.23
+ SAN SABA      |     2 |      86.02 |    12.45
+ CAMERON       |     2 |      32.06 |    64.61
+ KLEBERG       |     2 |      46.02 |    49.70
+ HOWARD        |     2 |      76.33 |    20.34
+ DIMMIT        |     2 |      30.20 |    67.38
+ CASS          |     2 |      79.11 |    19.39
+ VICTORIA      |     2 |      68.49 |    28.50
+ HOPKINS       |     2 |      79.43 |    18.61
+ HILL          |     2 |      78.06 |    19.64
+ KIMBLE        |     2 |      87.25 |    10.59
+ WEBB          |     2 |      22.77 |    74.38
+ HARDIN        |     2 |      86.09 |    12.21
+ GRIMES        |     2 |      74.15 |    23.03
+ PANOLA        |     2 |      81.10 |    17.62
+ ERATH         |     2 |      81.14 |    15.63
+ ELLIS         |     2 |      71.05 |    25.68
+ CROSBY        |     2 |      68.93 |    27.34
+ YOAKUM        |     2 |      78.16 |    18.53
+ BROWN         |     2 |      86.10 |    11.62
+ LAMPASAS      |     2 |      78.18 |    18.15
+ COOKE         |     2 |      82.89 |    14.75
+ BORDEN        |     2 |      90.41 |     8.49
+ ARANSAS       |     2 |      73.85 |    23.48
+ LLANO         |     2 |      79.82 |    17.59
+ CLAY          |     2 |      87.33 |    10.70
+ IRION         |     1 |      86.84 |    11.84
+ GRAYSON       |     1 |      74.94 |    21.83
+ SOMERVELL     |     1 |      82.71 |    13.93
+ CHEROKEE      |     1 |      77.22 |    20.75
+ SAN PATRICIO  |     1 |      60.45 |    36.37
+ ATASCOSA      |     1 |      63.20 |    34.07
+ NUECES        |     1 |      48.77 |    47.23
+ WASHINGTON    |     1 |      74.21 |    22.93
+ LUBBOCK       |     1 |      66.86 |    28.51
+ GUADALUPE     |     1 |      63.78 |    32.00
+ ROBERTS       |     1 |      95.27 |     3.64
 (165 rows)
 
 SQL to Reproduce:
-    SELECT county, COUNT(*) FROM 
-    (
-        SELECT 
-            county, last_name, given_names, v.voter_id, 
-            voting_method, precinct, recorded_on 
-        FROM voter_rolls_v2 v 
-        JOIN (
-            SELECT voter_id, COUNT(*) 
-            FROM voter_rolls_v2 
-            WHERE voter_id != 0 
-            GROUP BY voter_id 
-            HAVING COUNT(*) > 1
-        ) v2 ON v2.voter_id=v.voter_id 
-        ORDER BY county, v.last_name, v.given_names
-    ) dupes 
-    GROUP BY county
-    ORDER BY COUNT(*) DESC;
 
+    SELECT
+        dupes.county, COUNT(*),
+        ROUND(c2016.republican * 100, 2) republican, ROUND(c2016.democrat * 100, 2) democrat
+    FROM
+    (
+        SELECT
+            county, last_name, given_names, v.voter_id,
+            voting_method, precinct, recorded_on
+        FROM voter_rolls_v2 v
+        JOIN (
+            SELECT voter_id, COUNT(*)
+            FROM voter_rolls_v2
+            WHERE voter_id != 0
+            GROUP BY voter_id
+            HAVING COUNT(*) > 1
+        ) v2 ON v2.voter_id=v.voter_id
+        ORDER BY county, v.last_name, v.given_names
+    ) dupes
+    JOIN counties_by_pol_party_2016_v2 c2016
+        ON c2016.county=dupes.county
+    GROUP BY dupes.county
+    ORDER BY COUNT(*) DESC;
