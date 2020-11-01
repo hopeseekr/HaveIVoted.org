@@ -18186,3 +18186,193 @@ SQL to Reproduce:
     ) v2 ON v2.voter_id=v.voter_id
     ORDER BY county, v.last_name, v.given_names;
 
+Dupes by county:
+
+    county     | count 
+---------------+-------
+ DEWITT        |  7410
+ LIBERTY       |  2339
+ VAL VERDE     |  1022
+ JASPER        |   856
+ FAYETTE       |   640
+ TYLER         |   518
+ MCCULLOCH     |   480
+ LAMAR         |   371
+ JIM WELLS     |   364
+ JOHNSON       |   346
+ ZAPATA        |   256
+ FREESTONE     |   248
+ COLEMAN       |   242
+ FALLS         |   138
+ BRAZORIA      |   131
+ FRIO          |   114
+ GOLIAD        |   111
+ THROCKMORTON  |   106
+ DALLAS        |   100
+ HARRIS        |    96
+ KNOX          |    91
+ GRAY          |    82
+ MONTGOMERY    |    72
+ REAL          |    70
+ DELTA         |    68
+ RANDALL       |    66
+ GONZALES      |    62
+ CAMP          |    60
+ NACOGDOCHES   |    60
+ PARKER        |    60
+ COCHRAN       |    58
+ WILSON        |    56
+ REEVES        |    54
+ BEXAR         |    53
+ SCURRY        |    52
+ FANNIN        |    50
+ BROOKS        |    50
+ MENARD        |    48
+ LYNN          |    46
+ JEFFERSON     |    42
+ GALVESTON     |    37
+ HAMILTON      |    37
+ KENT          |    34
+ TRINITY       |    30
+ ARCHER        |    30
+ ZAVALA        |    29
+ WINKLER       |    28
+ MOTLEY        |    26
+ HANSFORD      |    24
+ NEWTON        |    24
+ MILLS         |    22
+ TARRANT       |    21
+ KERR          |    20
+ DAWSON        |    20
+ MORRIS        |    20
+ NAVARRO       |    19
+ MARTIN        |    18
+ STARR         |    18
+ WILLACY       |    18
+ FORT BEND     |    18
+ LASALLE       |    18
+ BRAZOS        |    18
+ CONCHO        |    18
+ MCMULLEN      |    18
+ HUNT          |    18
+ CORYELL       |    17
+ COLLIN        |    16
+ HOCKLEY       |    14
+ JACKSON       |    14
+ HARDEMAN      |    14
+ AUSTIN        |    14
+ EL PASO       |    13
+ WICHITA       |    13
+ WISE          |    12
+ CALDWELL      |    11
+ VAN ZANDT     |    11
+ TERRELL       |    10
+ HOOD          |    10
+ DICKENS       |    10
+ SMITH         |    10
+ CULBERSON     |    10
+ COMAL         |     9
+ WILLIAMSON    |     9
+ WOOD          |     8
+ LIMESTONE     |     8
+ BOSQUE        |     8
+ PRESIDIO      |     8
+ DUVAL         |     8
+ MARION        |     8
+ BURLESON      |     8
+ ANGELINA      |     7
+ HIDALGO       |     7
+ ARMSTRONG     |     6
+ POLK          |     6
+ TRAVIS        |     6
+ COKE          |     6
+ KENDALL       |     6
+ DONLEY        |     6
+ SHELBY        |     5
+ WALKER        |     5
+ KAUFMAN       |     5
+ HARRISON      |     4
+ LAVACA        |     4
+ KARNES        |     4
+ JEFF DAVIS    |     4
+ MASON         |     4
+ HUDSPETH      |     4
+ HAYS          |     4
+ PECOS         |     4
+ ECTOR         |     4
+ DENTON        |     4
+ CROCKETT      |     4
+ STEPHENS      |     4
+ STERLING      |     4
+ COLLINGSWORTH |     4
+ TOM GREEN     |     4
+ UVALDE        |     4
+ CHAMBERS      |     4
+ WILBARGER     |     4
+ BOWIE         |     4
+ BLANCO        |     4
+ BELL          |     3
+ MEDINA        |     3
+ ROBERTSON     |     3
+ REFUGIO       |     2
+ ROCKWALL      |     2
+ RUNNELS       |     2
+ RUSK          |     2
+ SABINE        |     2
+ SAN SABA      |     2
+ CAMERON       |     2
+ KLEBERG       |     2
+ HOWARD        |     2
+ DIMMIT        |     2
+ CASS          |     2
+ VICTORIA      |     2
+ HOPKINS       |     2
+ HILL          |     2
+ KIMBLE        |     2
+ WEBB          |     2
+ HARDIN        |     2
+ GRIMES        |     2
+ PANOLA        |     2
+ ERATH         |     2
+ ELLIS         |     2
+ CROSBY        |     2
+ YOAKUM        |     2
+ BROWN         |     2
+ LAMPASAS      |     2
+ COOKE         |     2
+ BORDEN        |     2
+ ARANSAS       |     2
+ LLANO         |     2
+ CLAY          |     2
+ IRION         |     1
+ GRAYSON       |     1
+ SOMERVELL     |     1
+ CHEROKEE      |     1
+ SAN PATRICIO  |     1
+ ATASCOSA      |     1
+ NUECES        |     1
+ WASHINGTON    |     1
+ LUBBOCK       |     1
+ GUADALUPE     |     1
+ ROBERTS       |     1
+(165 rows)
+
+SQL to Reproduce:
+    SELECT county, COUNT(*) FROM 
+    (
+        SELECT 
+            county, last_name, given_names, v.voter_id, 
+            voting_method, precinct, recorded_on 
+        FROM voter_rolls_v2 v 
+        JOIN (
+            SELECT voter_id, COUNT(*) 
+            FROM voter_rolls_v2 
+            WHERE voter_id != 0 
+            GROUP BY voter_id 
+            HAVING COUNT(*) > 1
+        ) v2 ON v2.voter_id=v.voter_id 
+        ORDER BY county, v.last_name, v.given_names
+    ) dupes 
+    GROUP BY county
+    ORDER BY COUNT(*) DESC;
+
