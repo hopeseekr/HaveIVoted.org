@@ -19,11 +19,11 @@ class CreateVotesByCountyView extends Migration
     {
         return <<<SQL
             CREATE VIEW votes_by_county AS
-            SELECT c.name county, COUNT(*) votes 
+            SELECT c.id county_id, c.name county, COUNT(*) votes 
             FROM voter_rolls vr 
             JOIN counties c 
                 ON c.id=vr.county_id 
-            GROUP BY c.name
+            GROUP BY c.id, c.name
             ORDER BY COUNT(*) DESC;
         SQL;
     }
