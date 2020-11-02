@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
+    <title>Have I Voted? | HaveIVoted.org</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="colorlib.com">
+    <meta name="author" content="hopeseekr@gmail.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,6 +17,9 @@
     <meta name="twitter:title" content="Have I Voted.org – Let's get 100% voter turnout!" />
     <meta name="twitter:description" content="Quickly find out if your vote has been properly counted. Find out if your family and friends have already voted." />
     <meta name="twitter:image" content="https://www.haveivoted.org/images/haveivoted.jpg" />
+    <meta name="og:title" content="Have I Voted.org – Let's get 100% voter turnout!" />
+    <meta name="og:description" content="Quickly find out if your vote has been properly counted. Find out if your family and friends have already voted." />
+    <meta name="og:image" content="https://www.haveivoted.org/images/haveivoted.jpg" />
 </head>
 <body>
 <div class="s003">
@@ -53,5 +57,5 @@
 
     gtag('config', 'G-BMVJ30H88L');
 </script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body><!-- This templates was made by HopeSeekr (https://github.com/hopeseekr) -->
 </html>
