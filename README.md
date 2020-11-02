@@ -21,6 +21,10 @@ Put the DB password into .env
 
 ## ChangeLog
 
+### v1.5.0 @ 2020-11-02
+
+* **[2020-11-02 03:22:36 CST]** - Added functionality for parsing The State of Washington's voter rolls.
+
 ### v1.1.0 @ 2020-11-02
 
 * **[2020-11-01 13:49:02 CST]** - Added duplicated Texas votes.

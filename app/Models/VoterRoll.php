@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use PHPExperts\ConciseUuid\ConciseUuidModel;
 
 /**
@@ -14,8 +13,8 @@ use PHPExperts\ConciseUuid\ConciseUuidModel;
  * @property string $given_names
  * @property int    $voter_id
  * @property string $voting_method
- * @property int    $precinct
- * @property string $vote_recorded_on
+ * @property string $precinct
+ * @property Carbon $recorded_on
  * @property Carbon $created_at
  * @property Carbon $updated_at
  */
@@ -26,8 +25,7 @@ class VoterRoll extends ConciseUuidModel
     // Allow every column to be written to.
     protected $guarded = [];
 
-    public function county(): BelongsTo
-    {
-        return $this->belongsTo(County::class);
-    }
+    protected $dates = [
+        'recorded_on',
+    ];
 }

@@ -1,13 +1,11 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace App\Console\Commands;
 
-use App\Models\County;
 use App\Models\VoterRoll;
 use App\Models\VotesByCounty;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
 use PHPExperts\ConciseUuid\ConciseUuid;
 use PHPExperts\CSVSpeaker\CSVReader;
 
@@ -25,7 +23,7 @@ class RecordVoterRollsTX extends Command
      *
      * @var string
      */
-    protected $description = 'Records voters for the State of Texas.';
+    protected $description = 'Records voters for The State of Texas.';
 
     protected $countyCounts = [];
 
@@ -38,7 +36,9 @@ class RecordVoterRollsTX extends Command
     {
         $recordVoters = function (array $voters, $county, $votingDate) {
             if (!$this->countyCounts) {
-                $this->countyCounts = VotesByCounty::all()->pluck('votes', 'county')->toArray();
+                $this->countyCounts = VotesByCounty::query()
+                    ->where(['state' => 'TX'])
+                    ->pluck('votes', 'county')->toArray();
             }
 
             $voterCount = count($voters);
@@ -50,7 +50,7 @@ class RecordVoterRollsTX extends Command
         $state = 'TX';
 
         // 1. Get a list of the available CSV files.
-        $csvFiles = glob('data/TX/*.csv');
+        $csvFiles = glob("data/{$state}/*.csv");
 
         $recordedVotes = 0;
         $totalVotes = 0;
@@ -65,7 +65,10 @@ class RecordVoterRollsTX extends Command
             $votingDate = $matches[0];
 
             // 3. Truncate the voting rolls for the current date. We're going to rebuild them all.
-            VoterRoll::query()->where(['recorded_on' => $votingDate])->delete();
+            VoterRoll::query()->where([
+                'state'       => $state,
+                'recorded_on' => $votingDate,
+            ])->delete();
 
             /*
  * @property string $id
@@ -85,24 +88,8 @@ class RecordVoterRollsTX extends Command
             $currentCounty = null;
             foreach ($votersData as $data) {
                 $county = $data['COUNTY'];
-                if (!isset($countyIds[$county])) {
-                    $countyId = County::query()->where(['name' => $county])
-                        ->value('id');
-                    if (!$countyId) {
-                        $county = ucwords($county);
-                        dump("$county County is not in the database!!");
-                        $countyId = County::query()->create([
-                            'name'  => $county,
-                            'state' => $state,
-                        ])->id;
-                    }
-
-                    //dump("$county County's ID is $countyId");
-                    $countyIds[$county] = $countyId;
-
-                    if (!$currentCounty) {
-                        $currentCounty = $county;
-                    }
+                if (!$currentCounty) {
+                    $currentCounty = $county;
                 }
 
                 // Periodically write to the database, once per county.
@@ -128,7 +115,8 @@ class RecordVoterRollsTX extends Command
 
                 $voters[] = [
                     'id'            => ConciseUuid::generateNewId(),
-                    'county_id'     => $countyId,
+                    'county'        => $county,
+                    'state'         => $state,
                     'last_name'     => trim(substr($data['VOTER_NAME'], 0, strpos($data['VOTER_NAME'], ', '))),
                     'given_names'   => trim(substr($data['VOTER_NAME'], strpos($data['VOTER_NAME'], ', ') + 2)),
                     'voter_id'      => $data['ID_VOTER'],
