@@ -65,7 +65,16 @@ function fetchVoters(pageNum)
     $votersTable.show();
     $("#votersTable > tbody").html('');
     $votersTable.append($voterDetails);
-
+    /**********************************************************************
+     *
+     *  ccccc ccccc
+     *   ccc   ccc
+     *    c     cccc
+     *     ccccc     c
+     *      ccccc   ccc
+     *       ccccc ccccc
+     *
+     */
     $("body").css("cursor", "progress");
     $('#votersNav .current a').text(voterPageNum);
     $voterResults.find('#voterCount').text('');
