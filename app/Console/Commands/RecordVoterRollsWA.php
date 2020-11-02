@@ -194,7 +194,7 @@ class RecordVoterRollsWA extends Command
         }
 
         dump('Recorded votes: ' . $recordedVotes);
-        dump('Total Texan votes: ' . $totalVotes);
+        dump('Total Washingtonian votes: ' . $totalVotes);
 
         return 0;
     }

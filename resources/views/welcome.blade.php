@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="supported-states-box">
-            <h3>Only the State of Texas is supported as of now.</h3>
+            <h3>Only the States of Texas and Washington are supported as of now.</h3>
             <div class="errors"></div>
         </div>
         <form>
@@ -46,6 +46,7 @@
                         <th>Last Name</th>
                         <th>First Name(s)</th>
                         <th>County</th>
+                        <th>State</th>
                         <th>Precinct</th>
                         <th>Recorded on</th>
                     </tr>
@@ -55,6 +56,7 @@
                         <td class="last_name"></td>
                         <td class="given_names"></td>
                         <td class="county"></td>
+                        <td class="state"></td>
                         <td class="precinct"></td>
                         <td class="recorded_on"></td>
                     </tr>

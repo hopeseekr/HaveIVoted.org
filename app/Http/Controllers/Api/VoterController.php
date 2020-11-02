@@ -27,8 +27,7 @@ class VoterController extends Controller
         $givenNames = strtoupper($request->input('givenNames'));
 
         $voters = VoterRoll::query()
-            ->select(['last_name', 'given_names', 'c.name AS county', 'voting_method', 'precinct', 'recorded_on'])
-            ->join('counties AS c', 'c.id', '=', 'voter_rolls.county_id')
+            ->select(['last_name', 'given_names', 'county', 'state', 'voting_method', 'precinct', 'recorded_on'])
             ->where('last_name', 'LIKE', "%$lastName")
             ->where('given_names', 'LIKE', "$givenNames%")
             ->orderBy('last_name')

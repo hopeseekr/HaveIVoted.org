@@ -91,6 +91,7 @@ function fetchVoters(pageNum)
                 $newVoterDetails.find('.last_name').html(voter.last_name);
                 $newVoterDetails.find('.given_names').html(voter.given_names);
                 $newVoterDetails.find('.county').html(voter.county);
+                $newVoterDetails.find('.state').html(voter.state);
                 $newVoterDetails.find('.precinct').html(voter.precinct);
                 $newVoterDetails.find('.recorded_on').html(voter.recorded_on);
 

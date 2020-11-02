@@ -14,8 +14,6 @@ class WelcomeController extends Controller
      */
     public function index()
     {
-        $counties = County::query()->pluck('name', 'id');
-
-        return view('welcome', ['counties' => $counties]);
+        return view('welcome');
     }
 }
