@@ -8,7 +8,8 @@ use PHPExperts\ConciseUuid\ConciseUuidModel;
 
 /**
  * @property string $id
- * @property string $county_id
+ * @property string $county
+ * @property string $state
  * @property string $last_name
  * @property string $given_names
  * @property int    $voter_id
@@ -17,7 +18,6 @@ use PHPExperts\ConciseUuid\ConciseUuidModel;
  * @property string $vote_recorded_on
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property County $county
  */
 class VoterRoll extends ConciseUuidModel
 {

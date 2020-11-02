@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @property string $county
+ * @property string $state
  * @property int    $votes
  */
 class VotesByCounty extends Model
