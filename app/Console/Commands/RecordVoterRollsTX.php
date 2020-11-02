@@ -27,6 +27,8 @@ class RecordVoterRollsTX extends Command
      */
     protected $description = 'Records voters for the State of Texas.';
 
+    protected $countyCounts = [];
+
     /**
      * Execute the console command.
      *
@@ -35,15 +37,13 @@ class RecordVoterRollsTX extends Command
     public function handle()
     {
         $recordVoters = function (array $voters, $county, $votingDate) {
-            static $counts;
-
-            if (!$counts) {
-                $counts = VotesByCounty::all()->pluck('votes', 'county')->toArray();
+            if (!$this->countyCounts) {
+                $this->countyCounts = VotesByCounty::all()->pluck('votes', 'county')->toArray();
             }
 
             $voterCount = count($voters);
-            $counts[$county] = ($counts[$county] ?? 0) + $voterCount;
-            dump(sprintf("Recording %5s voters [%7s] on $votingDate in $county County, TX...", $voterCount, $counts[$county]));
+            $this->countyCounts[$county] = ($this->countyCounts[$county] ?? 0) + $voterCount;
+            dump(sprintf("Recording %5s voters [%7s] on $votingDate in $county County, TX...", $voterCount, $this->countyCounts[$county]));
             VoterRoll::query()->insert($voters);
         };
 
@@ -52,10 +52,14 @@ class RecordVoterRollsTX extends Command
         // 1. Get a list of the available CSV files.
         $csvFiles = glob('data/TX/*.csv');
 
+        $recordedVotes = 0;
+        $totalVotes = 0;
+
         // 2. Parse the CSV data.
         foreach ($csvFiles as $csvFile) {
             $csv = CSVReader::fromFile($csvFile);
             $votersData = $csv->toArray();
+            unset($csv);
 
             preg_match('/[0-9]{4}-[0-9]{2}-[0-9]{2}/', $csvFile, $matches);
             $votingDate = $matches[0];
@@ -104,6 +108,7 @@ class RecordVoterRollsTX extends Command
                 // Periodically write to the database, once per county.
                 if ($county !== $currentCounty) {
                     $recordVoters($voters, $currentCounty, $votingDate);
+                    $recordedVotes += count($voters);
 
                     unset($voters);
                     $voters = [];
@@ -114,6 +119,7 @@ class RecordVoterRollsTX extends Command
                 // Periodically write to the database, every 10,000 votes.
                 if ($votersInBatch === 5000) {
                     $recordVoters($voters, $county, $votingDate);
+                    $recordedVotes += count($voters);
 
                     unset($voters);
                     $voters = [];
@@ -136,8 +142,11 @@ class RecordVoterRollsTX extends Command
                 ++$votersInBatch;
             }
 
+            unset($data);
+
             // Record the last batch of voters.
             $recordVoters($voters, $county, $votingDate);
+            $recordedVotes += count($voters);
 
             /**
             array:5 [
@@ -150,6 +159,13 @@ class RecordVoterRollsTX extends Command
              */
 
         }
+
+        foreach ($this->countyCounts as $count) {
+            $totalVotes += $count;
+        }
+
+        dump('Recorded votes: ' . $recordedVotes);
+        dump('Total Texan votes: ' . $totalVotes);
 
         return 0;
     }
