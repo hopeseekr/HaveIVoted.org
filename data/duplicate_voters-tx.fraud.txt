@@ -1,0 +1,906 @@
+     last_name     |    given_names     |    county    |  voter_id  | voting_method | precint | recorded_on
+-------------------+--------------------+--------------+------------+---------------+---------+-------------
+ ALLEN             | DOROTHY ELLIS      | HARRIS       | 1102749711 | MAIL-IN       | 31      | 2020-10-23
+ ALLEN             | DOROTHY ELLIS      | HARRIS       | 1102749711 | IN-PERSON     | 31      | 2020-10-30
+ ALVARADO          | MARIA FILOMENA     | DALLAS       | 1187062460 | IN-PERSON     | 1131    | 2020-10-16
+ ALVARADO          | MARIA FILOMENA     | DALLAS       | 1187062460 | MAIL-IN       | 1131    | 2020-10-04
+ ALVAREZ           | MARICELA NINO      | BROOKS       | 1164825635 | IN-PERSON     | 3       | 2020-10-16
+ ALVAREZ           | MARICELA NINO      | BROOKS       | 1164825635 | IN-PERSON     | 3       | 2020-10-16
+ ALVAREZ           | MARICELA NINO      | BROOKS       | 1164825635 | IN-PERSON     | 3       | 2020-10-16
+ AMARO             | WILFREDO GUERRA    | WILSON       | 1024716600 | IN-PERSON     | 102     | 2020-10-30
+ AMARO             | WILFREDO GUERRA    | WILSON       | 1024716600 | MAIL-IN       | 102     | 2020-10-05
+ ANDERSON          | GRETCHEN GAY       | GOLIAD       | 1164596224 | MAIL-IN       | 43      | 2020-10-09
+ ANDERSON          | GRETCHEN GAY       | GOLIAD       | 1164596224 | IN-PERSON     | 43      | 2020-10-27
+ ANDREWS           | GUY HAYDEN         | DALLAS       | 1080368665 | MAIL-IN       | 1043    | 2020-10-10
+ ANDREWS           | GUY HAYDEN         | DALLAS       | 1080368665 | IN-PERSON     | 1043    | 2020-10-14
+ ANDRUS            | X JOIS             | DALLAS       | 1082240780 | IN-PERSON     | 2900    | 2020-10-17
+ ANDRUS            | X JOIS             | DALLAS       | 1082240780 | MAIL-IN       | 2900    | 2020-10-18
+ ANET              | KAMBIZ KENNY       | DALLAS       | 1081240643 | MAIL-IN       | 2405    | 2020-10-04
+ ANET              | KAMBIZ KENNY       | DALLAS       | 1081240643 | IN-PERSON     | 2405    | 2020-10-24
+ ARAMBULA          | JESUS              | HARRIS       | 1214197853 | MAIL-IN       | 330     | 2020-10-16
+ ARAMBULA          | JESUS              | HARRIS       | 1214197853 | IN-PERSON     | 330     | 2020-10-18
+ ASH               | ANN C              | LIMESTONE    | 1173887813 | MAIL-IN       | 301     | 2020-10-04
+ ASH               | ANN C              | LIMESTONE    | 1173887813 | IN-PERSON     | 301     | 2020-10-21
+ ASHTON            | MARY MARGUERITE    | GOLIAD       | 1182453781 | MAIL-IN       | 21      | 2020-10-09
+ ASHTON            | MARY MARGUERITE    | GOLIAD       | 1182453781 | IN-PERSON     | 21      | 2020-10-15
+ AVALOS            | ALEXANDER          | DALLAS       | 1178482732 | IN-PERSON     | 2807    | 2020-10-13
+ AVALOS            | ALEXANDER          | DALLAS       | 1178482732 | IN-PERSON     | 1113    | 2020-10-23
+ BABB              | CYNTHIA            | GOLIAD       | 1017257562 | MAIL-IN       | 41      | 2020-10-09
+ BABB              | CYNTHIA            | GOLIAD       | 1017257562 | IN-PERSON     | 41      | 2020-10-16
+ BADGER            | PAULA MARSHALL     | RANDALL      | 1026294474 | IN-PERSON     | 227     | 2020-10-14
+ BADGER            | PAULA MARSHALL     | RANDALL      | 1026294474 | MAIL-IN       | 227     | 2020-10-22
+ BAGGETT-WALLIS    | PAMELA ANNE        | BLANCO       | 1139355097 | IN-PERSON     | 303     | 2020-10-23
+ BAGGETT-WALLIS    | PAMELA ANNE        | BLANCO       | 1139355097 | MAIL-IN       | 303     | 2020-10-23
+ BAILEY            | COLTON CANNON      | GALVESTON    | 1043909699 | IN-PERSON     | 461     | 2020-10-21
+ BAILEY            | COLTON CANNON      | TARRANT      | 1043909699 | MAIL-IN       | 3172    | 2020-10-13
+ BAKER             | CAROLYN ANN        | DALLAS       | 1083206680 | IN-PERSON     | 2049    | 2020-10-20
+ BAKER             | CAROLYN ANN        | DALLAS       | 1083206680 | MAIL-IN       | 2049    | 2020-10-04
+ BAKER             | SUZANNE WARREN     | LYNN         | 1009449625 | MAIL-IN       | 6       | 2020-10-16
+ BAKER             | SUZANNE WARREN     | LYNN         | 1009449625 | IN-PERSON     | 6       | 2020-10-20
+ BALOCK            | JAMES ANTHONY      | HARRIS       | 1215545682 | MAIL-IN       | 309     | 2020-10-24
+ BALOCK            | JAMES ANTHONY      | HARRIS       | 1215545682 | IN-PERSON     | 309     | 2020-10-28
+ BANKS             | ARCHIE             | DALLAS       | 1080436171 | MAIL-IN       | 3805    | 2020-10-05
+ BANKS             | ARCHIE             | DALLAS       | 1080436171 | IN-PERSON     | 3805    | 2020-10-13
+ BANO              | JAMSHEEDA          | FORT BEND    | 1168057198 | MAIL-IN       | 3113    | 2020-10-30
+ BANO              | JAMSHEEDA          | FORT BEND    | 1168057198 | IN-PERSON     | 3113    | 2020-10-28
+ BANUELOS          | DELMA JEAN         | GALVESTON    | 2146781385 | IN-PERSON     | 223     | 2020-10-19
+ BANUELOS          | DELMA JEAN         | GALVESTON    | 2146781385 | MAIL-IN       | 223     | 2020-10-15
+ BARABASZ          | ANDRZEJ F          | DALLAS       | 1209767335 | MAIL-IN       | 2927    | 2020-10-21
+ BARABASZ          | ANDRZEJ F          | DALLAS       | 1209767335 | IN-PERSON     | 2927    | 2020-10-14
+ BARABASZ          | CHRISTINE ELLEN    | DALLAS       | 1210882872 | IN-PERSON     | 2927    | 2020-10-14
+ BARABASZ          | CHRISTINE ELLEN    | DALLAS       | 1210882872 | MAIL-IN       | 2927    | 2020-10-21
+ BARGMANN          | CAROLYN            | KARNES       | 1014893672 | IN-PERSON     | 3       | 2020-10-14
+ BARGMANN          | CAROLYN            | KARNES       | 1014893672 | MAIL-IN       | 3       | 2020-10-15
+ BARGMANN          | WILLIAM G          | KARNES       | 1014893746 | IN-PERSON     | 3       | 2020-10-14
+ BARGMANN          | WILLIAM G          | KARNES       | 1014893746 | MAIL-IN       | 3       | 2020-10-15
+ BASINGER          | AMANDA             | LAMAR        | 1015568823 | IN-PERSON     | 1F      | 2020-10-30
+ BASINGER          | AMANDA             | LAMAR        | 1015568823 | IN-PERSON     | 1G      | 2020-10-30
+ BASS              | GENE TAYLOR        | TRINITY      | 1168727974 | MAIL-IN       | 1       | 2020-10-27
+ BASS              | GENE TAYLOR        | TRINITY      | 1168727974 | IN-PERSON     | 1       | 2020-10-27
+ BECKA             | THERESA KOVAR      | BRAZOS       | 1040614229 | IN-PERSON     | 24      | 2020-10-19
+ BECKA             | THERESA KOVAR      | BRAZOS       | 1040614229 | MAIL-IN       | 24      | 2020-10-30
+ BEKKEN            | MARY MONACO        | BEXAR        | 1067860734 | MAIL-IN       | 4104    | 2020-10-12
+ BEKKEN            | MARY MONACO        | BEXAR        | 1067860734 | IN-PERSON     | 4104    | 2020-10-15
+ BELL              | REGINALD MURRAY    | KENDALL      | 2129382258 | IN-PERSON     | 3040    | 2020-10-15
+ BELL              | REGINALD MURRAY    | KENDALL      | 2129382258 | MAIL-IN       | 3040    | 2020-10-15
+ BENNIEFIELD       | ROBERT JAMES       | LAMAR        | 2127785535 | IN-PERSON     | 1H      | 2020-10-30
+ BENNIEFIELD       | ROBERT JAMES       | LAMAR        | 2127785535 | IN-PERSON     | 1H      | 2020-10-13
+ BENNIEFIELD       | ROBERT JAMES       | LAMAR        | 2127785535 | IN-PERSON     | 1H      | 2020-10-30
+ BENTON            | LORETTA            | DALLAS       | 1194784042 | MAIL-IN       | 3605    | 2020-10-14
+ BENTON            | LORETTA            | DALLAS       | 1194784042 | IN-PERSON     | 3605    | 2020-10-23
+ BILLO             | GLORIA ANN         | GOLIAD       | 1018207077 | MAIL-IN       | 43      | 2020-10-09
+ BILLO             | GLORIA ANN         | GOLIAD       | 1018207077 | IN-PERSON     | 43      | 2020-10-15
+ BLASINGAME        | JOY RANDOLPH       | HILL         | 1013937106 | MAIL-IN       | 22      | 2020-10-26
+ BLASINGAME        | JOY RANDOLPH       | HILL         | 1013937106 | IN-PERSON     | 22      | 2020-10-21
+ BOLIN             | MARIA TERESA       | GALVESTON    | 1032494066 | MAIL-IN       | 453     | 2020-10-13
+ BOLIN             | MARIA TERESA       | GALVESTON    | 1032494066 | IN-PERSON     | 453     | 2020-10-13
+ BRADSHAW          | DONNA JO           | DENTON       | 1152075913 | MAIL-IN       | 4043    | 2020-10-21
+ BRADSHAW          | DONNA JO           | DENTON       | 1152075913 | IN-PERSON     | 4043    | 2020-10-16
+ BROOKS            | CAROLE             | HARRIS       | 1108182383 | IN-PERSON     | 262     | 2020-10-13
+ BROOKS            | CAROLE             | HARRIS       | 1108182383 | MAIL-IN       | 262     | 2020-10-29
+ BROOKS            | DAVID              | GALVESTON    | 2171547926 | MAIL-IN       | 226     | 2020-10-15
+ BROOKS            | DAVID HENRY        | GALVESTON    | 2171547926 | IN-PERSON     | 226     | 2020-10-15
+ BRYANT            | ARIZONA BROWN      | DALLAS       | 1083986875 | MAIL-IN       | 3052    | 2020-10-04
+ BRYANT            | ARIZONA BROWN      | DALLAS       | 1083986875 | IN-PERSON     | 3052    | 2020-10-26
+ BRYANT            | HELEN BELTON       | HARRIS       | 1107876529 | IN-PERSON     | 252     | 2020-10-30
+ BRYANT            | HELEN BELTON       | HARRIS       | 1107876529 | MAIL-IN       | 252     | 2020-10-23
+ BRYANT            | WILLIE BEE         | WINKLER      | 1014537553 | MAIL-IN       | 401     | 2020-10-30
+ BRYANT            | WILLIE BEE         | WINKLER      | 1014537553 | IN-PERSON     | 401     | 2020-10-20
+ BRYER             | JIMMY W            | LAMAR        | 1002637646 | IN-PERSON     | 1H      | 2020-10-13
+ BRYER             | JIMMY W            | LAMAR        | 1002637646 | IN-PERSON     | 1H      | 2020-10-30
+ BRYER             | JIMMY W            | LAMAR        | 1002637646 | IN-PERSON     | 1H      | 2020-10-30
+ BRYER             | MARGIE I           | LAMAR        | 1002637633 | IN-PERSON     | 1H      | 2020-10-13
+ BRYER             | MARGIE I           | LAMAR        | 1002637633 | IN-PERSON     | 1H      | 2020-10-30
+ BRYER             | MARGIE I           | LAMAR        | 1002637633 | IN-PERSON     | 1H      | 2020-10-30
+ BUBOIS III        | PETER JOSEPH       | CORYELL      | 2169043249 | MAIL-IN       | 207     | 2020-10-16
+ BUERGER           | ESTHER BLANQUEZ    | GOLIAD       | 1017266117 | MAIL-IN       | 12      | 2020-10-09
+ BUERGER           | ESTHER BLANQUEZ    | GOLIAD       | 1017266117 | IN-PERSON     | 12      | 2020-10-20
+ BULLION           | TERRY LANE         | BROWN        | 1009492175 | MAIL-IN       | 303     | 2020-10-24
+ BULLION           | TERRY LANE         | BROWN        | 1009492175 | IN-PERSON     | 303     | 2020-10-30
+ BURGE             | BILLIE MASSEY      | GOLIAD       | 1070362983 | MAIL-IN       | 11      | 2020-10-09
+ BURGE             | BILLIE MASSEY      | GOLIAD       | 1070362983 | IN-PERSON     | 11      | 2020-10-15
+ BYRON             | JOHN RANDALL       | BEXAR        | 1066782111 | MAIL-IN       | 3201    | 2020-10-21
+ BYRON             | JOHN RANDALL       | BEXAR        | 1066782111 | IN-PERSON     | 3201    | 2020-10-27
+ CALLAWAY          | CALEB SHANE        | KNOX         | 2002547604 | IN-PERSON     | 101     | 2020-10-19
+ CALLAWAY          | CALEB SHANE        | KNOX         | 2002547604 | IN-PERSON     | 101     | 2020-10-19
+ CALLAWAY          | CALEB SHANE        | KNOX         | 2002547604 | IN-PERSON     | 101     | 2020-10-19
+ CALLAWAY          | CALEB SHANE        | KNOX         | 2002547604 | IN-PERSON     | 101     | 2020-10-19
+ CALLOWAY          | ROY FLINT          | NUECES       | 1040395768 | IN-PERSON     | 65      | 2020-10-17
+ CALLOWAY          | ROY FLINT          | SHELBY       | 1040395768 | IN-PERSON     | 1SE     | 2020-10-30
+ CARRANZA          | AYDA LYDIA         | COMAL        | 1069328175 | IN-PERSON     | 403     | 2020-10-13
+ CARRANZA          | AYDA LYDIA         | COMAL        | 1069328175 | MAIL-IN       | 403     | 2020-10-13
+ CARROLL           | ALEXIS             | RANDALL      | 1197481102 | IN-PERSON     | 307     | 2020-10-29
+ CARROLL           | ALEXIS             | RANDALL      | 1197481102 | MAIL-IN       | 307     | 2020-10-28
+ CARTER            | ROBERT LEE         | RANDALL      | 1146518262 | IN-PERSON     | 415     | 2020-10-20
+ CARTER            | ROBERT LEE         | RANDALL      | 1146518262 | MAIL-IN       | 415     | 2020-10-19
+ CASILLAS          | EMILIA RIVERA      | HARRIS       | 1103335570 | IN-PERSON     | 759     | 2020-10-24
+ CASILLAS          | EMILIA RIVERA      | HARRIS       | 1103335570 | MAIL-IN       | 759     | 2020-10-18
+ CATES             | DAVID LEWIS        | LIMESTONE    | 1029972489 | MAIL-IN       | 301     | 2020-10-04
+ CATES             | DAVID LEWIS        | LIMESTONE    | 1029972489 | IN-PERSON     | 301     | 2020-10-21
+ CHANCE            | LORINE JONES       | ANGELINA     | 1031626599 | MAIL-IN       | 15      | 2020-10-16
+ CHANCE            | LORINE JONES       | ANGELINA     | 1031626599 | IN-PERSON     | 15      | 2020-10-15
+ CHASTEEN          | TRUDY DARLENE      | GALVESTON    | 1147598692 | MAIL-IN       | 226     | 2020-10-16
+ CHASTEEN          | TRUDY DARLENE      | GALVESTON    | 1147598692 | IN-PERSON     | 226     | 2020-10-20
+ CHEN              | GUI HUA            | LAMAR        | 2134048797 | IN-PERSON     | 1A3B.N  | 2020-10-30
+ CHEN              | GUI HUA            | LAMAR        | 2134048797 | IN-PERSON     | 1D      | 2020-10-30
+ CHESTER           | MONICA BONITA      | HARRIS       | 1100889020 | MAIL-IN       | 754     | 2020-10-18
+ CHESTER           | MONICA BONITA      | HARRIS       | 1100889020 | IN-PERSON     | 754     | 2020-10-30
+ CHHABRA           | REKHA              | HARRIS       | 2170347814 | MAIL-IN       | 466     | 2020-10-26
+ CHHABRA           | REKHA              | HARRIS       | 2170347814 | IN-PERSON     | 466     | 2020-10-26
+ CHRIST            | MARGARET           | GOLIAD       | 1018195732 | MAIL-IN       | 41      | 2020-10-09
+ CHRIST            | MARGARET           | GOLIAD       | 1018195732 | IN-PERSON     | 41      | 2020-10-16
+ CLARK             | LORI L             | TARRANT      | 1045775508 | IN-PERSON     | 3637    | 2020-10-27
+ CLARK             | LORI L             | TARRANT      | 1045775508 | IN-PERSON     | 2360    | 2020-10-29
+ COLLINS           | JAMES ALBERT       | LUBBOCK      | 1007844764 | IN-PERSON     | 41      | 2020-10-13
+ COLLINS           | JAMES ALBERT       | SOMERVELL    | 1007844764 | IN-PERSON     | 4       | 2020-10-28
+ COOPER            | LINDA D            | HUNT         | 1124491701 | IN-PERSON     | 325     | 2020-10-19
+ COOPER            | LINDA D            | HUNT         | 1124491701 | MAIL-IN       | 325     | 2020-10-30
+ CORRIGAN          | LILLIAN            | ZAVALA       | 1005079393 | IN-PERSON     | 4       | 2020-10-17
+ CORRIGAN          | LILLIAN            | ZAVALA       | 1005079393 | IN-PERSON     | 4       | 2020-10-15
+ CORRIGAN          | LILLIAN            | ZAVALA       | 1005079393 | IN-PERSON     | 4       | 2020-10-16
+ CROW              | HARLAN ROBERT      | DALLAS       | 2128637288 | MAIL-IN       | 2201    | 2020-10-13
+ CROW              | HARLAN ROBERT      | DALLAS       | 2128637288 | IN-PERSON     | 2201    | 2020-10-18
+ CUELLAR           | NELISSA            | JIM WELLS    | 1005311392 | IN-PERSON     | 22      | 2020-10-15
+ CUELLAR           | NELISSA            | JIM WELLS    | 1005311392 | IN-PERSON     | 22      | 2020-10-15
+ CUELLAR           | NELISSA            | JIM WELLS    | 1005311392 | IN-PERSON     | 22      | 2020-10-15
+ CULLEN            | ROGER ROYCE        | BEXAR        | 1065979733 | MAIL-IN       | 3078    | 2020-10-22
+ CULLEN            | ROGER ROYCE        | BEXAR        | 1065979733 | IN-PERSON     | 3078    | 2020-10-14
+ CUMPIAN           | ANTHONY BRUCE      | BEXAR        | 2145665253 | IN-PERSON     | 4024    | 2020-10-25
+ CUMPIAN           | ANTHONY BRUCE      | BEXAR        | 2145665253 | IN-PERSON     | 3039    | 2020-10-25
+ DAVIS             | GWENDOLYN LEVERNE  | DALLAS       | 1079665331 | MAIL-IN       | 2700    | 2020-10-15
+ DAVIS             | GWENDOLYN LEVERNE  | DALLAS       | 1079665331 | IN-PERSON     | 2700    | 2020-10-17
+ DAVIS             | YVONNE KAY         | HARRIS       | 1113926818 | IN-PERSON     | 765     | 2020-10-19
+ DAVIS             | YVONNE KAY         | HARRIS       | 1113926818 | MAIL-IN       | 765     | 2020-10-29
+ DAWKINS           | MIKEYIA LATRICIA   | DALLAS       | 1148907756 | IN-PERSON     | 2224    | 2020-10-29
+ DAWKINS           | MIKEYIA LATRICIA   | DENTON       | 1148907756 | IN-PERSON     | 3019    | 2020-10-13
+ DE LA GARZA       | MARIA LUISA        | WILLACY      | 1006327596 | MAIL-IN       | 2A      | 2020-10-23
+ DE LA GARZA       | MARIA LUISA        | WILLACY      | 1006327596 | IN-PERSON     | 2A      | 2020-10-21
+ DIGGS             | EDITH M            | HUNT         | 1012565481 | IN-PERSON     | 107     | 2020-10-20
+ DIGGS             | EDITH M            | HUNT         | 1012565481 | MAIL-IN       | 107     | 2020-10-28
+ DODSON            | GLENN              | ECTOR        | 1093124967 | IN-PERSON     | 108     | 2020-10-28
+ DODSON            | GLENN              | ECTOR        | 1093124967 | IN-PERSON     | 204     | 2020-10-26
+ DOEREN            | JUDITH ANN         | PARKER       | 1011388653 | IN-PERSON     | 405     | 2020-10-20
+ DOEREN            | JUDITH ANN         | PARKER       | 1011388653 | MAIL-IN       | 405     | 2020-10-19
+ DOMINGUEZ         | JENNIFER DEE       | COMAL        | 2127473032 | IN-PERSON     | 404     | 2020-10-16
+ DOMINGUEZ         | JENNIFER SHINALL   | HARRIS       | 2127473032 | IN-PERSON     | 242     | 2020-10-29
+ DOMINGUEZ         | MANUELA CHAVIRA    | HUDSPETH     | 1005015373 | IN-PERSON     | 2       | 2020-10-22
+ DOMINGUEZ         | MANUELA CHAVIRA    | HUDSPETH     | 1005015373 | MAIL-IN       | 2       | 2020-10-16
+ DONNELL           | LEIGHTON J         | MCMULLEN     | 1004267257 | MAIL-IN       | 2B      | 2020-10-23
+ DONNELL           | LEIGHTON J         | MCMULLEN     | 1004267257 | IN-PERSON     | 2B      | 2020-10-27
+ DOUGLAS           | DEBRA JANETTE      | DALLAS       | 1083119221 | IN-PERSON     | 1700    | 2020-10-16
+ DOUGLAS           | DEBRA JANETTE      | DALLAS       | 1083119221 | MAIL-IN       | 1700    | 2020-10-15
+ DOWLING           | SUZANNE LATIMER    | HARDIN       | 2149051696 | IN-PERSON     | 10      | 2020-10-16
+ DOWLING           | SUZANNE LATIMER    | HARDIN       | 2149051696 | MAIL-IN       | 10      | 2020-10-21
+ DRAKE             | THOMAS L           | EL PASO      | 1096253137 | IN-PERSON     | 55      | 2020-10-15
+ DRAKE             | THOMAS L           | EL PASO      | 1096253137 | MAIL-IN       | 55      | 2020-10-04
+ DRIGGARS          | JAMES DONALD       | LAMAR        | 1002528072 | IN-PERSON     | 2C3A.C  | 2020-10-30
+ DRIGGARS          | JAMES DONALD       | LAMAR        | 1002528072 | IN-PERSON     | 2B2A    | 2020-10-30
+ DUBOIS            | PETER JOSEPH       | CORYELL      | 2169043249 | MAIL-IN       | 207     | 2020-10-16
+ DUKE              | WANDA              | GOLIAD       | 1018196211 | MAIL-IN       | 42      | 2020-10-09
+ DUKE              | WANDA              | GOLIAD       | 1018196211 | IN-PERSON     | 42      | 2020-10-23
+ ECHOLS            | DEBRA JUNE         | BOSQUE       | 1079321778 | MAIL-IN       | 5       | 2020-10-24
+ ECHOLS            | DEBRA JUNE         | BOSQUE       | 1079321778 | IN-PERSON     | 5       | 2020-10-24
+ EDMONSON          | SHIRLEY THOMAS     | JEFFERSON    | 1123557673 | MAIL-IN       | 85      | 2020-10-26
+ EDMONSON          | SHIRLEY THOMAS     | JEFFERSON    | 1123557673 | MAIL-IN       | 85      | 2020-10-20
+ EDMONSON          | SHIRLEY THOMAS     | JEFFERSON    | 1123557673 | MAIL-IN       | 85      | 2020-10-20
+ EDWARDS           | RACHAL RACHEL      | DALLAS       | 1129020928 | IN-PERSON     | 3617    | 2020-10-30
+ EDWARDS           | RACHAL RACHEL      | IRION        | 1129020928 | IN-PERSON     | 300     | 2020-10-30
+ EDWARDS           | SERENA             | GOLIAD       | 1018214623 | IN-PERSON     | 22      | 2020-10-13
+ EDWARDS           | SERENA             | GOLIAD       | 1018214623 | MAIL-IN       | 22      | 2020-10-09
+ ELLIS             | EDWARD DAVID       | LAMAR        | 1002558048 | IN-PERSON     | 1E7C    | 2020-10-30
+ ELLIS             | EDWARD DAVID       | LAMAR        | 1002558048 | IN-PERSON     | 1A3B.N  | 2020-10-13
+ ELSNER            | GREGG MICHAEL      | TOM GREEN    | 1130103226 | IN-PERSON     | 215     | 2020-10-19
+ ELSNER            | GREGG MICHAEL      | TOM GREEN    | 1130103226 | MAIL-IN       | 215     | 2020-10-13
+ ENNEPER           | RICHARD DAVID      | POLK         | 2158177100 | IN-PERSON     | 17      | 2020-10-13
+ ENNEPER           | RICHARD DAVID      | POLK         | 2158177100 | MAIL-IN       | 17      | 2020-10-13
+ ESQUIVEL GONZALEZ | MIGUEL             | HARRISON     | 2164515395 | IN-PERSON     | 4       | 2020-10-14
+ ESSER             | MARY ANN MASCOLINO | HARRIS       | 1146110715 | MAIL-IN       | 118     | 2020-10-29
+ ESSER             | MARY ANN MASCOLINO | HARRIS       | 1146110715 | IN-PERSON     | 118     | 2020-10-22
+ EVANS             | ANN                | HARRIS       | 1033265288 | MAIL-IN       | 750     | 2020-10-28
+ EVANS             | ANN DILLARD        | GALVESTON    | 1033265288 | MAIL-IN       | 151     | 2020-10-13
+ EVETTS III        | J B                | JIM WELLS    | 1005309161 | IN-PERSON     | 9       | 2020-10-15
+ EVETTS III        | J B                | JIM WELLS    | 1005309161 | IN-PERSON     | 9       | 2020-10-15
+ EVETTS III        | J B                | JIM WELLS    | 1005309161 | IN-PERSON     | 9       | 2020-10-15
+ EWING             | RONNIE DALE        | CLAY         | 1006477152 | MAIL-IN       | 24      | 2020-10-27
+ EWING             | RONNIE DALE        | CLAY         | 1006477152 | IN-PERSON     | 24      | 2020-10-26
+ FAHRINGER         | DEBRA JO           | BEXAR        | 1071447325 | IN-PERSON     | 4054    | 2020-10-14
+ FAHRINGER         | DEBRA JO           | BEXAR        | 1071447325 | MAIL-IN       | 4054    | 2020-10-04
+ FARRIS            | JACK PIERSON       | JEFFERSON    | 1123084289 | MAIL-IN       | 65      | 2020-10-19
+ FARRIS II         | JACK PIERSON       | JEFFERSON    | 1123084289 | MAIL-IN       | 65      | 2020-10-19
+ FERNANDEZ JR      | FRANCISCO M        | TARRANT      | 1045512136 | IN-PERSON     | 4102    | 2020-10-13
+ FERNANDEZ JR      | FRANCISCO M        | TARRANT      | 1045512136 | MAIL-IN       | 4102    | 2020-10-13
+ FISHER            | SHARON K           | ANGELINA     | 2000155757 | MAIL-IN       | 16      | 2020-10-21
+ FISHER            | SHARON K           | ANGELINA     | 2000155757 | IN-PERSON     | 16      | 2020-10-21
+ FLORES            | RITA CRUZ          | FRIO         | 1007558626 | MAIL-IN       | 4       | 2020-10-19
+ FLORES            | RITA CRUZ          | FRIO         | 1007558626 | IN-PERSON     | 4       | 2020-10-29
+ FLORES            | VERONICA FRAUSTO   | SAN PATRICIO | 1134263648 | IN-PERSON     | 108     | 2020-10-20
+ FLORES            | VERONICA FRAUSTO   | WEBB         | 1134263648 | IN-PERSON     | 359     | 2020-10-15
+ FLOYD             | JULIE C            | WILSON       | 1004024289 | IN-PERSON     | 313     | 2020-10-17
+ FLOYD             | JULIE C            | WILSON       | 1004024289 | MAIL-IN       | 313     | 2020-10-09
+ FLOYD JR          | ROBERT LYLE        | WILSON       | 1004024800 | IN-PERSON     | 313     | 2020-10-17
+ FLOYD JR          | ROBERT LYLE        | WILSON       | 1004024800 | MAIL-IN       | 313     | 2020-10-07
+ FLYNT             | JOHN PAUL          | HARRIS       | 1116850834 | IN-PERSON     | 594     | 2020-10-21
+ FLYNT             | JOHN PAUL          | HARRIS       | 1116850834 | MAIL-IN       | 594     | 2020-10-16
+ FOJTIK            | MICHAEL WAYNE      | GOLIAD       | 1020476208 | MAIL-IN       | 22      | 2020-10-09
+ FOJTIK            | MICHAEL WAYNE      | GOLIAD       | 1020476208 | IN-PERSON     | 22      | 2020-10-13
+ FOSTER            | LAURA GAINES       | FORT BEND    | 1116073786 | MAIL-IN       | 3148    | 2020-10-24
+ FOSTER            | LAURA GAINES       | HARRIS       | 1116073786 | IN-PERSON     | 510     | 2020-10-26
+ GARCIA            | AMELIA CADENA      | STARR        | 1010085676 | MAIL-IN       | 6       | 2020-10-19
+ GARCIA            | AMELIA CADENA      | STARR        | 1010085676 | IN-PERSON     | 6       | 2020-10-13
+ GARCIA            | ANDRES ANTONIO     | GALVESTON    | 1044065937 | IN-PERSON     | 345     | 2020-10-28
+ GARCIA            | ANDRES ANTONIO     | TARRANT      | 1044065937 | IN-PERSON     | 4048    | 2020-10-22
+ GARCIA            | ELISEO             | HARRIS       | 1103636012 | MAIL-IN       | 64      | 2020-10-13
+ GARCIA            | ELISEO             | HARRIS       | 1103636012 | IN-PERSON     | 64      | 2020-10-13
+ GARCIA            | JOSE JESUS         | HIDALGO      | 1053804412 | IN-PERSON     | 228     | 2020-10-22
+ GARCIA            | JOSE JESUS         | HIDALGO      | 1053804412 | IN-PERSON     | 53      | 2020-10-26
+ GARCIA            | MARIA              | ATASCOSA     | 1052909468 | IN-PERSON     | 12      | 2020-10-13
+ GARCIA            | MARIA              | HIDALGO      | 1052909468 | IN-PERSON     | 5       | 2020-10-20
+ GARRETT II        | ELTON DEXTER       | KAUFMAN      | 1124473129 | IN-PERSON     | 27      | 2020-10-29
+ GARRETT II        | ELTON DEXTER       | KAUFMAN      | 1124473129 | MAIL-IN       | 27      | 2020-10-16
+ GARZA             | JESUS MARIA        | STARR        | 1152023287 | MAIL-IN       | 6       | 2020-10-09
+ GARZA             | JESUS MARIA        | STARR        | 1152023287 | IN-PERSON     | 6       | 2020-10-13
+ GILDON            | KATHERYNE LOUISE   | MORRIS       | 1128082576 | MAIL-IN       | 302     | 2020-10-09
+ GILDON            | KATHERYNE LOUISE   | MORRIS       | 1128082576 | IN-PERSON     | 302     | 2020-10-04
+ GLENN             | NORMA JEAN         | HAMILTON     | 2003161873 | MAIL-IN       | 1       | 2020-10-16
+ GLENN             | NORMA JEAN         | HAMILTON     | 2003161873 | IN-PERSON     | 1       | 2020-10-16
+ GODFREY           | PATRICIA ANN       | DALLAS       | 1085642262 | IN-PERSON     | 3601    | 2020-10-13
+ GODFREY           | PATRICIA ANN       | DALLAS       | 1085642262 | MAIL-IN       | 3601    | 2020-10-13
+ GONZALES          | MIGUEL ESQUIVEL    | HARRISON     | 2164515395 | MAIL-IN       | 4       | 2020-10-22
+ GONZALEZ          | GABRIELLA TERESA   | BROOKS       | 2164810882 | IN-PERSON     | 2       | 2020-10-30
+ GONZALEZ          | GABRIELLA TERESA   | BROOKS       | 2164810882 | IN-PERSON     | 2       | 2020-10-30
+ GONZALEZ          | GABRIELLA TERESA   | BROOKS       | 2164810882 | IN-PERSON     | 2       | 2020-10-30
+ GONZALEZ          | JAVIER RIOS        | JIM WELLS    | 1054746749 | IN-PERSON     | 6       | 2020-10-15
+ GONZALEZ          | JAVIER RIOS        | JIM WELLS    | 1054746749 | IN-PERSON     | 6       | 2020-10-15
+ GONZALEZ          | JAVIER RIOS        | JIM WELLS    | 1054746749 | IN-PERSON     | 6       | 2020-10-15
+ GONZALEZ          | JOSEPHINE POTEET   | BEXAR        | 1095066895 | IN-PERSON     | 3181    | 2020-10-30
+ GONZALEZ          | JOSEPHINE POTEET   | BEXAR        | 1095066895 | MAIL-IN       | 3181    | 2020-10-08
+ GRANADO           | ARNULFO HERNANDES  | REEVES       | 1010135529 | IN-PERSON     | 11      | 2020-10-19
+ GRANADO           | ARNULFO HERNANDES  | REEVES       | 1010135529 | MAIL-IN       | 11      | 2020-10-14
+ GRANADOS          | CANDELARIO         | HARRIS       | 1144669775 | IN-PERSON     | 995     | 2020-10-14
+ GRANADOS          | CANDELARIO         | HARRIS       | 1144669775 | MAIL-IN       | 995     | 2020-10-11
+ GRAY              | ROGER W            | GONZALES     | 1012104297 | IN-PERSON     | 1       | 2020-10-26
+ GRAY              | ROGER W            | GONZALES     | 1012104297 | MAIL-IN       | 1       | 2020-10-22
+ GREEN             | DOROTHY LEE        | HARRIS       | 1110272641 | IN-PERSON     | 109     | 2020-10-30
+ GREEN             | DOROTHY LEE        | HARRIS       | 1110272641 | MAIL-IN       | 109     | 2020-10-23
+ GREEN             | GWENDOLYN DAVIS    | RANDALL      | 1216012609 | IN-PERSON     | 228     | 2020-10-14
+ GREEN             | GWENDOLYN DAVIS    | RANDALL      | 1216012609 | MAIL-IN       | 228     | 2020-10-10
+ GREEN             | KALGIE DEON        | HARRIS       | 1115974033 | MAIL-IN       | 47      | 2020-10-29
+ GREEN             | KALGIE DEON        | HARRIS       | 1115974033 | IN-PERSON     | 47      | 2020-10-18
+ GREENWOOD         | DAVID GILES        | ROBERTSON    | 1090062041 | IN-PERSON     | 19      | 2020-10-20
+ GREENWOOD         | DAVID GILES        | TARRANT      | 1090062041 | IN-PERSON     | 3545    | 2020-10-19
+ GRIFFITHS JR      | CHARLES W          | HARRIS       | 1162716868 | IN-PERSON     | 137     | 2020-10-13
+ GRIFFITHS JR      | CHARLES W          | HARRIS       | 1162716868 | MAIL-IN       | 137     | 2020-10-29
+ GRIMALDO JR       | FERNANDO           | HARRIS       | 1103672539 | IN-PERSON     | 231     | 2020-10-15
+ GRIMALDO JR       | FERNANDO           | HARRIS       | 1103672539 | MAIL-IN       | 231     | 2020-10-29
+ GUERRERO          | AMALIA             | EL PASO      | 1095448397 | IN-PERSON     | 143     | 2020-10-16
+ GUERRERO          | AMALIA             | EL PASO      | 1095448397 | MAIL-IN       | 143     | 2020-10-06
+ GWATHMEY          | LINDA SUE          | BEXAR        | 1067399629 | IN-PERSON     | 3152    | 2020-10-21
+ GWATHMEY          | LINDA SUE          | BEXAR        | 1067399629 | MAIL-IN       | 3152    | 2020-10-14
+ HACKWORTH         | WILLIE DAVIS       | DALLAS       | 1084064105 | MAIL-IN       | 3048    | 2020-10-19
+ HACKWORTH         | WILLIE DAVIS       | DALLAS       | 1084064105 | IN-PERSON     | 3048    | 2020-10-15
+ HAEGNER           | ELLEN SCHULTZ      | FORT BEND    | 1099899522 | MAIL-IN       | 3004    | 2020-10-09
+ HAEGNER           | ELLEN SCHULTZ      | HARRIS       | 1099899522 | IN-PERSON     | 362     | 2020-10-15
+ HALSELL JR        | EDWARD F           | DALLAS       | 1080230855 | IN-PERSON     | 2226    | 2020-10-17
+ HALSELL JR        | EDWARD F           | DALLAS       | 1080230855 | MAIL-IN       | 2226    | 2020-10-15
+ HAMM              | DARLENE LASSITER   | WISE         | 1039904216 | IN-PERSON     | 1       | 2020-10-16
+ HAMM              | DARLENE LASSITER   | WISE         | 1039904216 | MAIL-IN       | 1       | 2020-10-20
+ HARP JR           | LEONARD WAYNE      | CHEROKEE     | 1016446952 | IN-PERSON     | 15      | 2020-10-13
+ HARP JR           | LEONARD WAYNE      | HIDALGO      | 1016446952 | IN-PERSON     | 8       | 2020-10-14
+ HARRIS            | JUDY               | JOHNSON      | 1034421124 | IN-PERSON     | 24      | 2020-10-14
+ HARRIS            | JUDY               | JOHNSON      | 1034421124 | MAIL-IN       | 24      | 2020-10-29
+ HART              | JERRY LYNN         | KNOX         | 1016234711 | IN-PERSON     | 101     | 2020-10-19
+ HART              | JERRY LYNN         | KNOX         | 1016234711 | IN-PERSON     | 101     | 2020-10-19
+ HART              | JERRY LYNN         | KNOX         | 1016234711 | IN-PERSON     | 101     | 2020-10-19
+ HART              | JERRY LYNN         | KNOX         | 1016234711 | IN-PERSON     | 101     | 2020-10-19
+ HART              | JERRY LYNN         | KNOX         | 1016234711 | IN-PERSON     | 101     | 2020-10-19
+ HART              | JERRY LYNN         | KNOX         | 1016234711 | IN-PERSON     | 101     | 2020-10-19
+ HART              | LINDA MARIE        | KNOX         | 1013225562 | IN-PERSON     | 101     | 2020-10-19
+ HART              | LINDA MARIE        | KNOX         | 1013225562 | IN-PERSON     | 101     | 2020-10-19
+ HART              | LINDA MARIE        | KNOX         | 1013225562 | IN-PERSON     | 101     | 2020-10-19
+ HART              | LINDA MARIE        | KNOX         | 1013225562 | IN-PERSON     | 101     | 2020-10-19
+ HAUSMANN          | JOHN W             | GOLIAD       | 1017274192 | IN-PERSON     | 41      | 2020-10-15
+ HAUSMANN          | JOHN W             | GOLIAD       | 1017274192 | MAIL-IN       | 41      | 2020-10-09
+ HAVERFIELD        | ELIZABETH LOUISE   | DENTON       | 1047070512 | IN-PERSON     | 1018    | 2020-10-30
+ HAVERFIELD        | ELIZABETH LOUISE   | TARRANT      | 1047070512 | MAIL-IN       | 3389    | 2020-10-10
+ HAWKINS           | NELSON             | KNOX         | 1051692338 | IN-PERSON     | 101     | 2020-10-19
+ HAWKINS           | NELSON             | KNOX         | 1051692338 | IN-PERSON     | 101     | 2020-10-19
+ HAWKINS           | NELSON             | KNOX         | 1051692338 | IN-PERSON     | 101     | 2020-10-19
+ HAWKINS           | NELSON             | KNOX         | 1051692338 | IN-PERSON     | 101     | 2020-10-19
+ HELLMAN III       | STEWART WALTON     | PARKER       | 1044904552 | IN-PERSON     | 305     | 2020-10-16
+ HELLMAN III       | STEWART WALTON     | PARKER       | 1044904552 | MAIL-IN       | 305     | 2020-10-24
+ HERNANDEZ         | CELIA              | GOLIAD       | 1017303076 | MAIL-IN       | 21      | 2020-10-09
+ HERNANDEZ         | CELIA              | GOLIAD       | 1017303076 | IN-PERSON     | 21      | 2020-10-20
+ HERNANDEZ         | IRMA G             | DUVAL        | 1007093658 | MAIL-IN       | 9       | 2020-10-21
+ HERNANDEZ         | IRMA G             | DUVAL        | 1007093658 | IN-PERSON     | 9       | 2020-10-14
+ HERNANDEZ         | MANUEL CRUZ        | DONLEY       | 1156676251 | IN-PERSON     | 102     | 2020-10-13
+ HERNANDEZ         | MANUEL CRUZ        | DONLEY       | 1156676251 | MAIL-IN       | 102     | 2020-10-04
+ HERNANDEZ         | SHARON KAY         | DONLEY       | 1156676349 | MAIL-IN       | 102     | 2020-10-04
+ HERNANDEZ         | SHARON KAY         | DONLEY       | 1156676349 | IN-PERSON     | 102     | 2020-10-13
+ HERNANDEZ         | SUSAN MARGOT       | GOLIAD       | 1017282884 | IN-PERSON     | 21      | 2020-10-13
+ HERNANDEZ         | SUSAN MARGOT       | GOLIAD       | 1017282884 | MAIL-IN       | 21      | 2020-10-09
+ HERNANDEZ FLORES  | ORALIA ADRIANA     | BEXAR        | 1064519972 | MAIL-IN       | 4157    | 2020-10-26
+ HERNANDEZ FLORES  | ORALIA ADRIANA     | BEXAR        | 1064519972 | IN-PERSON     | 4157    | 2020-10-30
+ HERNANDEZ JR      | NAT                | GOLIAD       | 1017265207 | IN-PERSON     | 21      | 2020-10-13
+ HERNANDEZ JR      | NAT                | GOLIAD       | 1017265207 | MAIL-IN       | 21      | 2020-10-09
+ HERON             | WINSTON CHARLES    | CORYELL      | 1128077249 | IN-PERSON     | 414     | 2020-10-20
+ HERON             | WINSTON CHARLES    | MONTGOMERY   | 1128077249 | MAIL-IN       | 22      | 2020-10-04
+ HERRON            | DORIS REE          | HARRIS       | 1150307684 | IN-PERSON     | 276     | 2020-10-15
+ HERRON            | DORIS REE          | HARRIS       | 1150307684 | MAIL-IN       | 276     | 2020-10-29
+ HODGES            | ZELA GUSTAVUS      | BRAZOS       | 1040581638 | MAIL-IN       | 12      | 2020-10-29
+ HODGES            | ZELA GUSTAVUS      | BRAZOS       | 1040581638 | IN-PERSON     | 12      | 2020-10-20
+ HOLMES            | DARLA DENISE       | KNOX         | 1093027047 | IN-PERSON     | 101     | 2020-10-19
+ HOLMES            | DARLA DENISE       | KNOX         | 1093027047 | IN-PERSON     | 101     | 2020-10-19
+ HOLMES            | DARLA DENISE       | KNOX         | 1093027047 | IN-PERSON     | 101     | 2020-10-19
+ HOLMES            | DARLA DENISE       | KNOX         | 1093027047 | IN-PERSON     | 101     | 2020-10-19
+ HOOPER            | SHERRY LEE         | HARRIS       | 1119734601 | MAIL-IN       | 696     | 2020-10-29
+ HOOPER            | SHERRY LEE         | HARRIS       | 1119734601 | IN-PERSON     | 696     | 2020-10-22
+ HOVIVIAN          | THEODORE FLAGG     | DALLAS       | 1171801318 | MAIL-IN       | 2006    | 2020-10-19
+ HOVIVIAN          | THEODORE FLAGG     | DALLAS       | 1171801318 | IN-PERSON     | 2006    | 2020-10-22
+ HOWARD            | RICHARD EMORY      | HARRIS       | 1186858346 | IN-PERSON     | 547     | 2020-10-18
+ HOWARD            | RICHARD EMORY      | HARRIS       | 1186858346 | MAIL-IN       | 547     | 2020-10-29
+ HRKEL             | EDWARD JAMES       | FORT BEND    | 1099916626 | IN-PERSON     | 3156    | 2020-10-24
+ HRKEL             | EDWARD JAMES       | FORT BEND    | 1099916626 | MAIL-IN       | 3156    | 2020-10-24
+ HUBBARD           | MATTHEW ALLEN      | BEXAR        | 1068958222 | IN-PERSON     | 1113    | 2020-10-22
+ HUBBARD           | MATTHEW ALLEN      | BRAZORIA     | 1068958222 | IN-PERSON     | 6       | 2020-10-19
+ HUDDLESTON        | DALE WARREN        | DALLAS       | 1082580801 | MAIL-IN       | 2056    | 2020-10-13
+ HUDDLESTON        | DALE WARREN        | DALLAS       | 1082580801 | IN-PERSON     | 2056    | 2020-10-18
+ HULSE             | MARILYN JONES      | DALLAS       | 1082663659 | IN-PERSON     | 2035    | 2020-10-15
+ HULSE             | MARILYN JONES      | DALLAS       | 1082663659 | MAIL-IN       | 2035    | 2020-10-04
+ IGE               | GREGORY ADEDAYO    | HARRIS       | 1181668124 | IN-PERSON     | 649     | 2020-10-16
+ IGE               | GREGORY ADEDAYO    | HARRIS       | 1181668124 | MAIL-IN       | 649     | 2020-10-29
+ JACOBS            | BEVERLY KAY        | WISE         | 1040242821 | IN-PERSON     | 9       | 2020-10-16
+ JACOBS            | BEVERLY KAY        | WISE         | 1040242821 | MAIL-IN       | 9       | 2020-10-20
+ JACOBS            | STEVE WAYNE        | WISE         | 1040210667 | IN-PERSON     | 9       | 2020-10-16
+ JACOBS            | STEVE WAYNE        | WISE         | 1040210667 | MAIL-IN       | 9       | 2020-10-20
+ JAMES             | MICHAEL MARION     | JIM WELLS    | 1011610527 | IN-PERSON     | 8       | 2020-10-26
+ JAMES             | MICHAEL MARION     | JIM WELLS    | 1011610527 | IN-PERSON     | 8       | 2020-10-26
+ JAMES             | MICHAEL MARION     | JIM WELLS    | 1011610527 | IN-PERSON     | 8       | 2020-10-26
+ JOHNSEN           | PATRICIA LEE       | GRIMES       | 1101447252 | IN-PERSON     | 7       | 2020-10-14
+ JOHNSEN           | PATRICIA LEE       | GRIMES       | 1101447252 | MAIL-IN       | 7       | 2020-10-19
+ JOHNSTONE         | KATHY ESTES        | COLLIN       | 1074406785 | MAIL-IN       | 21      | 2020-10-16
+ JOHNSTONE         | KATHY ESTES        | COLLIN       | 1074406785 | IN-PERSON     | 21      | 2020-10-13
+ JONES             | MARY LOUISE        | WOOD         | 1150662010 | MAIL-IN       | 1-3     | 2020-10-15
+ JONES             | MARY LOUISE        | WOOD         | 1150662010 | IN-PERSON     | 1-3     | 2020-10-22
+ JONES JR          | ROBERT EARL        | ELLIS        | 1030238690 | IN-PERSON     | 147     | 2020-10-22
+ JONES JR          | ROBERT EARL        | ELLIS        | 1030238690 | MAIL-IN       | 147     | 2020-10-15
+ JUSTIS            | MICHAEL DAVID      | TOM GREEN    | 1183406409 | MAIL-IN       | 436     | 2020-10-04
+ JUSTIS            | MICHAEL DAVID      | TOM GREEN    | 1183406409 | IN-PERSON     | 436     | 2020-10-29
+ KAPUSTA           | MARIO OSVALDO      | HARRIS       | 1107094608 | IN-PERSON     | 217     | 2020-10-22
+ KAPUSTA           | MARIO OSVALDO      | HARRIS       | 1107094608 | MAIL-IN       | 217     | 2020-10-20
+ KASTEN MAYS       | HERMINE FRIEDERIKE | DALLAS       | 1203650089 | MAIL-IN       | 2058    | 2020-10-09
+ KASTEN MAYS       | HERMINE FRIEDERIKE | DALLAS       | 1203650089 | IN-PERSON     | 2058    | 2020-10-25
+ KENDALL           | JAMES DEWITT       | COKE         | 1000486146 | MAIL-IN       | 3       | 2020-10-08
+ KENDALL           | JAMES DEWITT       | COKE         | 1000486146 | IN-PERSON     | 3       | 2020-10-13
+ KENERSON          | DELORIS            | DALLAS       | 1078085855 | IN-PERSON     | 4647    | 2020-10-17
+ KENERSON          | DELORIS            | DALLAS       | 1078085855 | MAIL-IN       | 4647    | 2020-10-04
+ KOLIBA            | GLORIA FAY         | GOLIAD       | 1005049867 | MAIL-IN       | 11      | 2020-10-09
+ KOLIBA            | GLORIA FAY         | GOLIAD       | 1005049867 | IN-PERSON     | 11      | 2020-10-19
+ KOONTZ            | CLOIS DELMORE      | HARDEMAN     | 1009596195 | IN-PERSON     | 3       | 2020-10-30
+ KOONTZ            | CLOIS DELMORE      | HARDEMAN     | 1009596195 | MAIL-IN       | 3       | 2020-10-14
+ KOONTZ            | CLOIS DELMORE      | HARDEMAN     | 1009596195 | IN-PERSON     | 3       | 2020-10-30
+ KOONTZ            | LENORA             | HARDEMAN     | 1009594762 | IN-PERSON     | 3       | 2020-10-30
+ KOONTZ            | LENORA             | HARDEMAN     | 1009594762 | MAIL-IN       | 3       | 2020-10-14
+ KOONTZ            | LENORA             | HARDEMAN     | 1009594762 | IN-PERSON     | 3       | 2020-10-30
+ KRONE             | NANCY CAROL        | SHELBY       | 1029500674 | MAIL-IN       | 6       | 2020-10-28
+ KRONE             | NANCY CAROL        | SHELBY       | 1029500674 | IN-PERSON     | 6       | 2020-10-19
+ KROTHE            | ZILPA MIA          | WILLIAMSON   | 1136603059 | MAIL-IN       | 312     | 2020-10-13
+ KROTHE            | ZILPA MIA          | WILLIAMSON   | 1136603059 | IN-PERSON     | 312     | 2020-10-13
+ LAGRONE           | CAROLINE MAE       | RANDALL      | 1172076529 | MAIL-IN       | 208     | 2020-10-14
+ LAGRONE           | CAROLINE MAE       | RANDALL      | 1172076529 | IN-PERSON     | 208     | 2020-10-19
+ LAMBERTH          | ROBERT LEROY       | POLK         | 1169836786 | IN-PERSON     | 6       | 2020-10-16
+ LAMBERTH          | ROBERT LEROY       | POLK         | 1169836786 | MAIL-IN       | 6       | 2020-10-22
+ LANCELOT III      | HARRY BAILEY       | TARRANT      | 1044159360 | MAIL-IN       | 3282    | 2020-10-22
+ LANCELOT III      | HARRY BAILEY       | TARRANT      | 1044159360 | IN-PERSON     | 3282    | 2020-10-20
+ LANGLINAIS        | MARGARET G         | GOLIAD       | 1018212260 | MAIL-IN       | 31      | 2020-10-09
+ LANGLINAIS        | MARGARET G         | GOLIAD       | 1018212260 | IN-PERSON     | 31      | 2020-10-13
+ LANGLINAIS        | MARGARET G         | GOLIAD       | 1018212260 | IN-PERSON     | 31      | 2020-10-15
+ LARGE             | GLEN DALE          | KNOX         | 1013217749 | IN-PERSON     | 101     | 2020-10-19
+ LARGE             | GLEN DALE          | KNOX         | 1013217749 | IN-PERSON     | 101     | 2020-10-19
+ LARGE             | GLEN DALE          | KNOX         | 1013217749 | IN-PERSON     | 101     | 2020-10-19
+ LARGE             | GLEN DALE          | KNOX         | 1013217749 | IN-PERSON     | 101     | 2020-10-19
+ LE                | STEPHEN TIEN       | HARRIS       | 1106178737 | MAIL-IN       | 174     | 2020-10-29
+ LE                | STEPHEN TIEN       | HARRIS       | 1106178737 | IN-PERSON     | 174     | 2020-10-23
+ LEAL              | ROSA SANTOS        | HARRIS       | 1116711177 | IN-PERSON     | 591     | 2020-10-19
+ LEAL              | ROSA SANTOS        | HARRIS       | 1116711177 | MAIL-IN       | 591     | 2020-10-29
+ LENK              | CHRISTA CAROLA     | BEXAR        | 1065492083 | IN-PERSON     | 2028    | 2020-10-16
+ LENK              | CHRISTA CAROLA     | BEXAR        | 1065492083 | MAIL-IN       | 2028    | 2020-10-09
+ LERTSAKORN        | WICHANON           | HARRIS       | 2143785046 | MAIL-IN       | 53      | 2020-10-28
+ LERTSAKORN        | WICHANON           | HARRIS       | 2143785046 | IN-PERSON     | 53      | 2020-10-30
+ LESTER            | MARK WILLIAM       | GOLIAD       | 1052623389 | MAIL-IN       | 42      | 2020-10-09
+ LESTER            | MARK WILLIAM       | GOLIAD       | 1052623389 | IN-PERSON     | 42      | 2020-10-19
+ LEWIS             | CHRISTOPHER        | EL PASO      | 1094875423 | IN-PERSON     | 119     | 2020-10-22
+ LEWIS             | CHRISTOPHER        | EL PASO      | 1094875423 | IN-PERSON     | 101     | 2020-10-28
+ LITCHFIELD        | CHARLIE RAWLEIGH   | JIM WELLS    | 1012425666 | IN-PERSON     | 7       | 2020-10-15
+ LITCHFIELD        | CHARLIE RAWLEIGH   | JIM WELLS    | 1012425666 | IN-PERSON     | 7       | 2020-10-15
+ LITCHFIELD        | CHARLIE RAWLEIGH   | JIM WELLS    | 1012425666 | IN-PERSON     | 7       | 2020-10-15
+ LITTLES           | BOYD EDWIN         | GOLIAD       | 1018211104 | IN-PERSON     | 11      | 2020-10-15
+ LITTLES           | BOYD EDWIN         | GOLIAD       | 1018211104 | MAIL-IN       | 11      | 2020-10-09
+ LOCKRIDGE         | DAVID LAWRENCE     | GOLIAD       | 1098808126 | MAIL-IN       | 22      | 2020-10-09
+ LOCKRIDGE         | DAVID LAWRENCE     | GOLIAD       | 1098808126 | IN-PERSON     | 22      | 2020-10-23
+ LOCKRIDGE         | LEKAREN MORGAN     | GOLIAD       | 1098808142 | IN-PERSON     | 22      | 2020-10-23
+ LOCKRIDGE         | LEKAREN MORGAN     | GOLIAD       | 1098808142 | MAIL-IN       | 22      | 2020-10-09
+ LOCKWOOD          | DEBORAH L          | KERR         | 1031056782 | IN-PERSON     | 312     | 2020-10-14
+ LOCKWOOD          | DEBORAH L          | KERR         | 1031056782 | MAIL-IN       | 312     | 2020-10-15
+ LUNA              | BRANDI LEIGH       | LAMAR        | 1220687673 | IN-PERSON     | 4C      | 2020-10-30
+ LUNA              | BRANDI LEIGH       | LAMAR        | 1220687673 | IN-PERSON     | 4E.NL   | 2020-10-30
+ MADISON           | RAY DAVIS          | GOLIAD       | 1022779324 | MAIL-IN       | 21      | 2020-10-09
+ MADISON           | RAY DAVIS          | GOLIAD       | 1022779324 | IN-PERSON     | 21      | 2020-10-15
+ MAGANA            | MARIA MERCEDES     | HARRIS       | 1119294504 | MAIL-IN       | 674     | 2020-10-09
+ MAGANA            | MARIA MERCEDES     | HARRIS       | 1119294504 | IN-PERSON     | 674     | 2020-10-13
+ MAHAMANE          | MAMADOU            | FALLS        | 2149991271 | IN-PERSON     | 104     | 2020-10-28
+ MAHAN             | PAULA GONZALEZ     | JIM WELLS    | 1149323695 | IN-PERSON     | 10      | 2020-10-15
+ MAHAN             | PAULA GONZALEZ     | JIM WELLS    | 1149323695 | IN-PERSON     | 10      | 2020-10-15
+ MAHAN             | PAULA GONZALEZ     | JIM WELLS    | 1149323695 | IN-PERSON     | 10      | 2020-10-15
+ MALONEY           | MARCIA EUGENIA     | KNOX         | 1013233039 | IN-PERSON     | 101     | 2020-10-19
+ MALONEY           | MARCIA EUGENIA     | KNOX         | 1013233039 | IN-PERSON     | 101     | 2020-10-19
+ MALONEY           | MARCIA EUGENIA     | KNOX         | 1013233039 | IN-PERSON     | 101     | 2020-10-19
+ MALONEY           | MARCIA EUGENIA     | KNOX         | 1013233039 | IN-PERSON     | 101     | 2020-10-19
+ MALONEY           | ROBERT PHILIP      | KNOX         | 1013232030 | IN-PERSON     | 101     | 2020-10-19
+ MALONEY           | ROBERT PHILIP      | KNOX         | 1013232030 | IN-PERSON     | 101     | 2020-10-19
+ MALONEY           | ROBERT PHILIP      | KNOX         | 1013232030 | IN-PERSON     | 101     | 2020-10-19
+ MAMADOU           | MAHAMANE           | FALLS        | 2149991271 | IN-PERSON     | 104     | 2020-10-28
+ MANCERA           | ROSALIA            | EL PASO      | 1093603261 | IN-PERSON     | 201     | 2020-10-16
+ MANCERA           | ROSALIA            | EL PASO      | 1093603261 | IN-PERSON     | 14      | 2020-10-24
+ MARTELL           | ESPERANZA          | JEFFERSON    | 2140525546 | MAIL-IN       | 6       | 2020-10-21
+ MARTELL           | ESPERANZA A        | HARRIS       | 2140525546 | IN-PERSON     | 751     | 2020-10-26
+ MARTIN            | RANDY C            | WISE         | 1040141091 | MAIL-IN       | 8       | 2020-10-04
+ MARTIN            | RANDY C            | WISE         | 1040141091 | IN-PERSON     | 8       | 2020-10-19
+ MATA              | JOSE               | WILSON       | 1024621196 | IN-PERSON     | 102     | 2020-10-17
+ MATA              | JOSE               | WILSON       | 1024621196 | MAIL-IN       | 102     | 2020-10-19
+ MCCALLUM          | KAYLA MONIQUE      | MONTGOMERY   | 2121610627 | MAIL-IN       | 75      | 2020-10-16
+ MCCALLUM          | KAYLA MONIQUE      | MONTGOMERY   | 2121610627 | MAIL-IN       | 75      | 2020-10-28
+ MCCALLUM          | KAYLA MONIQUE      | MONTGOMERY   | 2121610627 | IN-PERSON     | 75      | 2020-10-30
+ MCCOLLUM          | MICHAEL WILLIAM    | JEFF DAVIS   | 1018324062 | IN-PERSON     | 1       | 2020-10-14
+ MCCOLLUM          | MICHAEL WILLIAM    | JEFF DAVIS   | 1018324062 | MAIL-IN       | 1       | 2020-10-14
+ MCCULLEN          | MILDRED CARPENTER  | DALLAS       | 1087549684 | MAIL-IN       | 1084    | 2020-10-04
+ MCCULLEN          | MILDRED CARPENTER  | DALLAS       | 1087549684 | IN-PERSON     | 1084    | 2020-10-13
+ MCDOW             | ALVIN T            | GOLIAD       | 1018190355 | MAIL-IN       | 31      | 2020-10-09
+ MCDOW             | ALVIN T            | GOLIAD       | 1018190355 | IN-PERSON     | 31      | 2020-10-15
+ MCFADDEN          | STEVE GARY         | KERR         | 1208620241 | IN-PERSON     | 220     | 2020-10-14
+ MCFADDEN          | STEVE GARY         | KERR         | 1208620241 | MAIL-IN       | 220     | 2020-10-15
+ MCFALL            | EVELINDA CORTEZ    | BEXAR        | 1071041222 | MAIL-IN       | 4051    | 2020-10-06
+ MCFALL            | EVELINDA CORTEZ    | BEXAR        | 1071041222 | IN-PERSON     | 4051    | 2020-10-15
+ MCKAY             | MARGARET ANN       | SMITH        | 1129160762 | IN-PERSON     | 28      | 2020-10-30
+ MCKAY             | MARGARET ANN       | SMITH        | 1129160762 | MAIL-IN       | 28      | 2020-10-29
+ MCKINLEY          | BOBBIE DIANE       | FRIO         | 1007520907 | IN-PERSON     | 1       | 2020-10-20
+ MCKINLEY          | BOBBIE DIANE       | FRIO         | 1007520907 | MAIL-IN       | 1       | 2020-10-21
+ MC LAUGHLIN       | JACKIE WAYNE       | WICHITA      | 1134977662 | MAIL-IN       | 318     | 2020-10-30
+ MC LAUGHLIN       | JACKIE WAYNE       | WICHITA      | 1134977662 | IN-PERSON     | 318     | 2020-10-14
+ MC REYNOLDS       | WANNELLE           | DICKENS      | 1022350567 | IN-PERSON     | 5       | 2020-10-13
+ MC REYNOLDS       | WANNELLE           | DICKENS      | 1022350567 | MAIL-IN       | 5       | 2020-10-04
+ MEDINA            | EFRAIN             | WICHITA      | 1135317010 | IN-PERSON     | 108     | 2020-10-14
+ MEDINA            | EFRAIN             | WICHITA      | 1135317010 | MAIL-IN       | 108     | 2020-10-04
+ MEDINA            | TANYA BARRINGTON   | WICHITA      | 1135325083 | MAIL-IN       | 108     | 2020-10-04
+ MEDINA            | TANYA BARRINGTON   | WICHITA      | 1135325083 | IN-PERSON     | 108     | 2020-10-14
+ MEEKS             | KATHLYN H          | DALLAS       | 1084728490 | IN-PERSON     | 4610    | 2020-10-17
+ MEEKS             | KATHLYN H          | DALLAS       | 1084728490 | MAIL-IN       | 4610    | 2020-10-09
+ MEFFERD           | JONATHAN HENRY     | GALVESTON    | 1104915160 | IN-PERSON     | 221     | 2020-10-13
+ MEFFERD           | JONATHAN HENRY     | ROCKWALL     | 1104915160 | IN-PERSON     | 2C      | 2020-10-13
+ MEHARG            | JOHN LEE           | GOLIAD       | 1018195093 | IN-PERSON     | 32      | 2020-10-13
+ MEHARG            | JOHN LEE           | GOLIAD       | 1018195093 | MAIL-IN       | 32      | 2020-10-09
+ MENA              | IRENE              | BEXAR        | 1068065013 | IN-PERSON     | 2073    | 2020-10-13
+ MENA              | IRENE              | BEXAR        | 1068065013 | MAIL-IN       | 2073    | 2020-10-08
+ MENDOZA           | GLORIA ESTHER      | DALLAS       | 1088542952 | IN-PERSON     | 2408    | 2020-10-19
+ MENDOZA           | GLORIA ESTHER      | DALLAS       | 1088542952 | MAIL-IN       | 2408    | 2020-10-18
+ MENDOZA           | RAFAEL NAJERA      | ZAVALA       | 1021035649 | IN-PERSON     | 4       | 2020-10-15
+ MENDOZA           | RAFAEL NAJERA      | ZAVALA       | 1021035649 | IN-PERSON     | 4       | 2020-10-17
+ MENDOZA           | RAFAEL NAJERA      | ZAVALA       | 1021035649 | IN-PERSON     | 4       | 2020-10-16
+ MERCER            | MYRNA BARNES       | DALLAS       | 1085534397 | MAIL-IN       | 4647    | 2020-10-10
+ MERCER            | MYRNA BARNES       | DALLAS       | 1085534397 | IN-PERSON     | 4647    | 2020-10-13
+ MERRY             | ROBERT ARTHUR      | COLLIN       | 1180676249 | MAIL-IN       | 129     | 2020-10-15
+ MERRY             | ROBERT ARTHUR      | COLLIN       | 1180676249 | IN-PERSON     | 129     | 2020-10-19
+ MILES             | JOHNNY LEE         | CALDWELL     | 1003974848 | MAIL-IN       | 206     | 2020-10-20
+ MILES             | JOHNNY LEE         | CALDWELL     | 1003974848 | IN-PERSON     | 206     | 2020-10-21
+ MILLER            | DEBRA MCCARTY      | HUNT         | 1074863316 | IN-PERSON     | 210     | 2020-10-19
+ MILLER            | DEBRA MCCARTY      | HUNT         | 1074863316 | MAIL-IN       | 210     | 2020-10-30
+ MILLER            | GARY RUSSELL       | BEXAR        | 1071350987 | MAIL-IN       | 3115    | 2020-10-05
+ MILLER            | GARY RUSSELL       | BEXAR        | 1071350987 | IN-PERSON     | 3115    | 2020-10-20
+ MINARD            | FRANK JEFFRY       | BEXAR        | 1003952122 | MAIL-IN       | 3161    | 2020-10-04
+ MINARD            | FRANK JEFFRY       | BEXAR        | 1003952122 | IN-PERSON     | 3161    | 2020-10-13
+ MINCHEW           | CHRISTINA MARIE    | TRAVIS       | 1131760974 | IN-PERSON     | 148     | 2020-10-23
+ MINCHEW           | CHRISTINA MARIE    | WILLIAMSON   | 1131760974 | IN-PERSON     | 344     | 2020-10-28
+ MINCHEW           | MARCUS DAVID       | TRAVIS       | 1130508300 | IN-PERSON     | 148     | 2020-10-23
+ MINCHEW           | MARCUS DAVID       | WILLIAMSON   | 1130508300 | IN-PERSON     | 344     | 2020-10-28
+ MITCHELL          | ALICIA DAWN        | BEXAR        | 1179453760 | IN-PERSON     | 3094    | 2020-10-21
+ MITCHELL          | ALICIA DAWN        | TRAVIS       | 1179453760 | MAIL-IN       | 314     | 2020-10-08
+ MONTGOMERY        | BRENDA LOUISE      | HARRIS       | 1117341869 | MAIL-IN       | 283     | 2020-10-29
+ MONTGOMERY        | BRENDA LOUISE      | HARRIS       | 1117341869 | IN-PERSON     | 283     | 2020-10-15
+ MOORE             | JANIECE            | JEFF DAVIS   | 1008639307 | MAIL-IN       | 1       | 2020-10-14
+ MOORE             | JANIECE            | JEFF DAVIS   | 1008639307 | IN-PERSON     | 1       | 2020-10-14
+ MOORE JR          | FRANTZ EARNEST     | WISE         | 1040251669 | IN-PERSON     | 8       | 2020-10-13
+ MOORE JR          | FRANTZ EARNEST     | WISE         | 1040251669 | MAIL-IN       | 8       | 2020-10-14
+ MORENO            | MARIA LUISA        | STARR        | 1018983314 | MAIL-IN       | 3       | 2020-10-07
+ MORENO            | MARIA LUISA        | STARR        | 1018983314 | IN-PERSON     | 3       | 2020-10-15
+ MORROW            | WILLIE RELIFORD    | DALLAS       | 1084432385 | IN-PERSON     | 3805    | 2020-10-25
+ MORROW            | WILLIE RELIFORD    | DALLAS       | 1084432385 | MAIL-IN       | 3805    | 2020-10-07
+ MORTON            | JANICE KAY         | PANOLA       | 1036402275 | IN-PERSON     | 14      | 2020-10-20
+ MORTON            | JANICE KAY         | PANOLA       | 1036402275 | MAIL-IN       | 14      | 2020-10-20
+ MUNOZ             | GERARDO SEIJAS     | HANSFORD     | 1013469991 | IN-PERSON     | 1       | 2020-10-16
+ MUNOZ             | GERARDO SEIJAS     | HANSFORD     | 1013469991 | MAIL-IN       | 1       | 2020-10-13
+ MUSE              | THOMAS MATTHEW     | KAUFMAN      | 1124142565 | IN-PERSON     | 19      | 2020-10-21
+ MUSE              | THOMAS MATTHEW     | ROCKWALL     | 1124142565 | IN-PERSON     | 3C      | 2020-10-30
+ NAPHALAY          | MARY P             | DALLAS       | 1083031562 | MAIL-IN       | 1083    | 2020-10-13
+ NAPHALAY          | MARY P             | DALLAS       | 1083031562 | IN-PERSON     | 1083    | 2020-10-13
+ NASH JR           | EDWARD CORNELIUS   | DALLAS       | 1082700599 | MAIL-IN       | 2033    | 2020-10-04
+ NASH JR           | EDWARD CORNELIUS   | DALLAS       | 1082700599 | IN-PERSON     | 2033    | 2020-10-15
+ NELSON            | MELISSA DIANNE     | ANGELINA     | 1128270202 | IN-PERSON     | 34      | 2020-10-14
+ NELSON            | MELISSA DIANNE     | SMITH        | 1128270202 | IN-PERSON     | 21      | 2020-10-15
+ NELSON            | PAUL REESE         | HUNT         | 1043505083 | MAIL-IN       | 107     | 2020-10-14
+ NELSON            | PAUL REESE         | HUNT         | 1043505083 | IN-PERSON     | 107     | 2020-10-14
+ NGUYEN            | THUY THI           | DALLAS       | 1087644422 | MAIL-IN       | 2805    | 2020-10-15
+ NGUYEN            | THUY THI           | DALLAS       | 1087644422 | IN-PERSON     | 2805    | 2020-10-16
+ NOLAND            | ELAINE             | GOLIAD       | 1017278670 | IN-PERSON     | 21      | 2020-10-16
+ NOLAND            | ELAINE             | GOLIAD       | 1017278670 | MAIL-IN       | 21      | 2020-10-09
+ NOLAND            | JOHN DAVID         | GOLIAD       | 1018191014 | MAIL-IN       | 21      | 2020-10-09
+ NOLAND            | JOHN DAVID         | GOLIAD       | 1018191014 | IN-PERSON     | 21      | 2020-10-16
+ NORRIS            | WANDA              | NACOGDOCHES  | 1028784002 | IN-PERSON     | 13      | 2020-10-30
+ NORRIS            | WANDA              | NACOGDOCHES  | 1028784002 | MAIL-IN       | 13      | 2020-10-30
+ NUNEZ             | JESUS CARLOS       | EL PASO      | 1095568271 | IN-PERSON     | 129     | 2020-10-22
+ NUNEZ             | JESUS CARLOS       | EL PASO      | 1095568271 | IN-PERSON     | 158     | 2020-10-26
+ OATES             | DONALD WAYNE       | DALLAS       | 1079552491 | MAIL-IN       | 2703    | 2020-10-08
+ OATES             | DONALD WAYNE       | DALLAS       | 1079552491 | IN-PERSON     | 2703    | 2020-10-17
+ OATES             | PATRICIA KAY       | DALLAS       | 2145118105 | IN-PERSON     | 2703    | 2020-10-17
+ OATES             | PATRICIA KAY       | DALLAS       | 2145118105 | MAIL-IN       | 2703    | 2020-10-08
+ OCONNOR           | EARL ANTHONY       | GOLIAD       | 1158373051 | MAIL-IN       | 42      | 2020-10-09
+ OCONNOR           | EARL ANTHONY       | GOLIAD       | 1158373051 | IN-PERSON     | 42      | 2020-10-16
+ OHARA             | KEVIN MICHAEL      | HARRIS       | 2125037699 | IN-PERSON     | 124     | 2020-10-19
+ OHARA             | KEVIN MICHAEL      | VAN ZANDT    | 2125037699 | IN-PERSON     | 4C      | 2020-10-30
+ OLLIE             | ROOSEVELT          | HARRIS       | 1117422615 | MAIL-IN       | 617     | 2020-10-29
+ OLLIE             | ROOSEVELT          | HARRIS       | 1117422615 | IN-PERSON     | 617     | 2020-10-14
+ OWEN              | ELVIRA ESTRADA     | WOOD         | 1035222864 | IN-PERSON     | 3-3     | 2020-10-16
+ PACK              | JERRY DEAN         | RANDALL      | 1025868271 | MAIL-IN       | 222     | 2020-10-19
+ PACK              | JERRY DEAN         | RANDALL      | 1025868271 | IN-PERSON     | 222     | 2020-10-19
+ PANAGOPOULOS      | IOANNA             | TARRANT      | 1045624519 | MAIL-IN       | 4485    | 2020-10-16
+ PANAGOPOULOS      | IOANNA             | TARRANT      | 1045624519 | IN-PERSON     | 4485    | 2020-10-16
+ PANTEL            | ANNA M             | BEXAR        | 1066550793 | MAIL-IN       | 1072    | 2020-10-06
+ PANTEL            | ANNA M             | BEXAR        | 1066550793 | IN-PERSON     | 1072    | 2020-10-21
+ PAREDES           | HERMINIA PAREDES   | SAN SABA     | 1005921097 | MAIL-IN       | 2B      | 2020-10-30
+ PAREDES           | HERMINIA PAREDES   | SAN SABA     | 1005921097 | IN-PERSON     | 2B      | 2020-10-30
+ PEREZ             | IRENE              | GOLIAD       | 1017304980 | MAIL-IN       | 21      | 2020-10-09
+ PEREZ             | IRENE              | GOLIAD       | 1017304980 | IN-PERSON     | 21      | 2020-10-15
+ PEREZ JR          | DANIEL             | GOLIAD       | 1017250778 | MAIL-IN       | 21      | 2020-10-09
+ PEREZ JR          | DANIEL             | GOLIAD       | 1017250778 | IN-PERSON     | 21      | 2020-10-15
+ PERRY             | STAN               | HOOD         | 1036656910 | IN-PERSON     | 11      | 2020-10-19
+ PERRY             | STAN               | HOOD         | 1036656910 | MAIL-IN       | 11      | 2020-10-27
+ PIERSON           | GLENDA SUE         | CALDWELL     | 1027489153 | MAIL-IN       | 204     | 2020-10-22
+ PIERSON           | GLENDA SUE         | CALDWELL     | 1027489153 | IN-PERSON     | 204     | 2020-10-23
+ PIERSON           | STAGG BERNARD      | CALDWELL     | 1027489066 | MAIL-IN       | 204     | 2020-10-22
+ PIERSON           | STAGG BERNARD      | CALDWELL     | 1027489066 | IN-PERSON     | 204     | 2020-10-23
+ PIGMAN            | ROGER PAUL         | CALDWELL     | 1097420538 | IN-PERSON     | 100     | 2020-10-28
+ PIGMAN            | ROGER PAUL         | EL PASO      | 1097420538 | IN-PERSON     | 16      | 2020-10-20
+ PIRZADA           | JAVAID MASOOD      | FORT BEND    | 1168057421 | MAIL-IN       | 3113    | 2020-10-30
+ PIRZADA           | JAVAID MASOOD      | FORT BEND    | 1168057421 | IN-PERSON     | 3113    | 2020-10-28
+ POLLET            | WESLEY EUGENE      | DALLAS       | 1085553195 | MAIL-IN       | 3604    | 2020-10-09
+ POLLET            | WESLEY EUGENE      | DALLAS       | 1085553195 | IN-PERSON     | 3604    | 2020-10-14
+ POTTS             | ALBERT EDWARD      | BEXAR        | 1069325150 | IN-PERSON     | 3147    | 2020-10-17
+ POTTS             | ALBERT EDWARD      | BEXAR        | 1069325150 | MAIL-IN       | 3147    | 2020-10-07
+ POUNDS            | SHERMAN LEE        | RUNNELS      | 1182916503 | IN-PERSON     | 7       | 2020-10-13
+ POUNDS            | SHERMAN LEE        | RUNNELS      | 1182916503 | MAIL-IN       | 7       | 2020-10-19
+ PRITCHETT         | LANDON JAYDE       | NAVARRO      | 2147291120 | IN-PERSON     | 403     | 2020-10-30
+ PRITCHETT         | LANDON JAYDE       | NAVARRO      | 2147291120 | IN-PERSON     | 403     | 2020-10-29
+ PRITCHETT         | LANDON JAYDE       | NAVARRO      | 2147291120 | IN-PERSON     | 403     | 2020-10-30
+ PRUITT            | CLARA B            | WICHITA      | 1135315660 | IN-PERSON     | 306     | 2020-10-30
+ PRUITT            | CLARA B            | WICHITA      | 1135315660 | MAIL-IN       | 306     | 2020-10-16
+ QUADROS           | RAUL ANTONIO       | DALLAS       | 1080632864 | IN-PERSON     | 2049    | 2020-10-29
+ QUADROS           | RAUL ANTONIO       | DALLAS       | 1080632864 | MAIL-IN       | 2049    | 2020-10-08
+ RAMIREZ           | RAUL CARLOS        | HARRIS       | 1104833940 | IN-PERSON     | 114     | 2020-10-21
+ RAMIREZ           | RAUL CARLOS        | HARRIS       | 1104833940 | MAIL-IN       | 114     | 2020-10-29
+ RAMOS             | JOHN               | GOLIAD       | 1000323311 | MAIL-IN       | 43      | 2020-10-09
+ RAMOS             | JOHN               | GOLIAD       | 1000323311 | IN-PERSON     | 43      | 2020-10-23
+ RAMOS             | MARTINA HERNANDEZ  | GOLIAD       | 1000324342 | MAIL-IN       | 43      | 2020-10-09
+ RAMOS             | MARTINA HERNANDEZ  | GOLIAD       | 1000324342 | IN-PERSON     | 43      | 2020-10-23
+ RAZO              | CRISPIN            | ZAVALA       | 1011708076 | IN-PERSON     | 4       | 2020-10-16
+ RAZO              | CRISPIN            | ZAVALA       | 1011708076 | IN-PERSON     | 4       | 2020-10-15
+ RAZO              | CRISPIN            | ZAVALA       | 1011708076 | IN-PERSON     | 4       | 2020-10-17
+ RENDON            | ALEJANDRO A        | FRIO         | 1007588175 | IN-PERSON     | 1       | 2020-10-24
+ RENDON            | ALEJANDRO A        | FRIO         | 1007588175 | MAIL-IN       | 1       | 2020-10-13
+ RENFRO            | GLADYS MODINA      | JOHNSON      | 1172829860 | IN-PERSON     | 27      | 2020-10-23
+ RENFRO            | GLADYS MODINA      | JOHNSON      | 1172829860 | MAIL-IN       | 27      | 2020-10-16
+ RENFRO            | MADELEINE J        | DALLAS       | 1037515690 | MAIL-IN       | 1071    | 2020-10-04
+ RENFRO            | MADELEINE J        | TARRANT      | 1037515690 | MAIL-IN       | 3327    | 2020-10-21
+ REYES MARQUEZ     | ADOLFO             | RANDALL      | 2140952169 | IN-PERSON     | 114     | 2020-10-15
+ REYES MARQUEZ     | ADOLFO             | RANDALL      | 2140952169 | MAIL-IN       | 114     | 2020-10-19
+ RHINES            | BELIVIA J          | BEXAR        | 1071561626 | MAIL-IN       | 3023    | 2020-10-04
+ RHINES            | BELIVIA J          | BEXAR        | 1071561626 | IN-PERSON     | 3023    | 2020-10-18
+ RICE              | ELMA DEAN          | HARRIS       | 1104715918 | IN-PERSON     | 633     | 2020-10-21
+ RICE              | ELMA DEAN          | HARRIS       | 1104715918 | MAIL-IN       | 633     | 2020-10-21
+ RICHARDSON        | SANDRA GRAHAM      | DALLAS       | 1083592585 | MAIL-IN       | 2941    | 2020-10-08
+ RICHARDSON        | SANDRA GRAHAM      | DALLAS       | 1083592585 | IN-PERSON     | 2941    | 2020-10-25
+ RIDENHOUR         | SUSAN METTE        | LYNN         | 2133339302 | MAIL-IN       | 4       | 2020-10-19
+ RIDENHOUR         | SUSAN METTE        | LYNN         | 2133339302 | IN-PERSON     | 4       | 2020-10-14
+ ROBERTSON         | DOUGLAS LEON       | COKE         | 1001003529 | MAIL-IN       | 3       | 2020-10-13
+ ROBERTSON         | DOUGLAS LEON       | COKE         | 1001003529 | IN-PERSON     | 3       | 2020-10-19
+ ROBERTSON         | JAMES BRETT        | DALLAS       | 1083011923 | IN-PERSON     | 2220    | 2020-10-14
+ ROBERTSON         | JAMES BRETT        | DALLAS       | 1083011923 | MAIL-IN       | 2220    | 2020-10-20
+ ROBLES            | RAUL DAVID         | TARRANT      | 2167818305 | MAIL-IN       | 4711    | 2020-10-17
+ ROBLES            | RAUL DAVID         | TARRANT      | 2167818305 | IN-PERSON     | 4711    | 2020-10-13
+ RODRIGUEZ         | ANDRES             | DALLAS       | 1145900414 | IN-PERSON     | 4114    | 2020-10-16
+ RODRIGUEZ         | ANDRES             | DALLAS       | 1145900414 | MAIL-IN       | 4114    | 2020-10-16
+ RODRIGUEZ         | EDNA               | MEDINA       | 1134219896 | IN-PERSON     | 2A      | 2020-10-24
+ RODRIGUEZ         | EDNA               | WEBB         | 1134219896 | IN-PERSON     | 344     | 2020-10-23
+ RODRIGUEZ         | IDA MARIE          | JIM WELLS    | 1005188920 | IN-PERSON     | 17      | 2020-10-15
+ RODRIGUEZ         | IDA MARIE          | JIM WELLS    | 1005188920 | IN-PERSON     | 17      | 2020-10-15
+ RODRIGUEZ         | IDA MARIE          | JIM WELLS    | 1005188920 | IN-PERSON     | 17      | 2020-10-15
+ RODRIGUEZ         | IGNACIA T          | JIM WELLS    | 1156335128 | IN-PERSON     | 10      | 2020-10-15
+ RODRIGUEZ         | IGNACIA T          | JIM WELLS    | 1156335128 | IN-PERSON     | 10      | 2020-10-15
+ RODRIGUEZ         | IGNACIA T          | JIM WELLS    | 1156335128 | IN-PERSON     | 10      | 2020-10-15
+ RODRIGUEZ         | MARIA              | DALLAS       | 2139893696 | IN-PERSON     | 1097    | 2020-10-14
+ RODRIGUEZ         | MARIA              | DALLAS       | 2139893696 | MAIL-IN       | 1097    | 2020-10-04
+ RODRIQUEZ         | PEDRO LUNA         | DALLAS       | 2125378899 | MAIL-IN       | 1097    | 2020-10-04
+ RODRIQUEZ         | PEDRO LUNA         | DALLAS       | 2125378899 | IN-PERSON     | 1097    | 2020-10-14
+ ROMAN             | JANETTE TROY       | BEXAR        | 1068715856 | IN-PERSON     | 2025    | 2020-10-14
+ ROMAN             | JANETTE TROY       | BEXAR        | 1068715856 | MAIL-IN       | 2025    | 2020-10-13
+ ROSALES           | SERGIO HUMBERTO    | STARR        | 1006107784 | MAIL-IN       | 3       | 2020-10-08
+ ROSALES           | SERGIO HUMBERTO    | STARR        | 1006107784 | IN-PERSON     | 3       | 2020-10-13
+ ROSS              | GORDON KEITH       | KNOX         | 1071514868 | IN-PERSON     | 101     | 2020-10-19
+ ROSS              | GORDON KEITH       | KNOX         | 1071514868 | IN-PERSON     | 101     | 2020-10-19
+ ROSS              | GORDON KEITH       | KNOX         | 1071514868 | IN-PERSON     | 101     | 2020-10-19
+ ROSS              | GORDON KEITH       | KNOX         | 1071514868 | IN-PERSON     | 101     | 2020-10-19
+ ROUGEAU           | JANIS KAY          | FORT BEND    | 1100331763 | IN-PERSON     | 2100    | 2020-10-27
+ ROUGEAU           | JANIS KAY          | FORT BEND    | 1100331763 | MAIL-IN       | 2100    | 2020-10-30
+ RUBIO             | CARMEN BARBARA     | FORT BEND    | 1167071601 | MAIL-IN       | 3142    | 2020-10-27
+ RUBIO             | CARMEN BARBARA     | FORT BEND    | 1167071601 | IN-PERSON     | 3142    | 2020-10-26
+ RUBIO             | MARY RAMIREZ       | GOLIAD       | 1017301531 | MAIL-IN       | 31      | 2020-10-09
+ RUBIO             | MARY RAMIREZ       | GOLIAD       | 1017301531 | IN-PERSON     | 31      | 2020-10-20
+ RUIZ              | GUMESINDO          | FRIO         | 1180822425 | IN-PERSON     | 2       | 2020-10-14
+ RUIZ              | GUMESINDO          | FRIO         | 1180822425 | MAIL-IN       | 2       | 2020-10-19
+ RYAN              | ROBERTA LOUISE     | GOLIAD       | 1147094392 | MAIL-IN       | 43      | 2020-10-09
+ RYAN              | ROBERTA LOUISE     | GOLIAD       | 1147094392 | IN-PERSON     | 43      | 2020-10-15
+ SAENZ             | MARY E             | JIM WELLS    | 1005194990 | IN-PERSON     | 7       | 2020-10-15
+ SAENZ             | MARY E             | JIM WELLS    | 1005194990 | IN-PERSON     | 7       | 2020-10-15
+ SAENZ             | MARY E             | JIM WELLS    | 1005194990 | IN-PERSON     | 7       | 2020-10-15
+ SALISBURY         | RICHARD WALTER     | HARRIS       | 1099676290 | IN-PERSON     | 510     | 2020-10-14
+ SALISBURY         | RICHARD WALTER     | HARRIS       | 1099676290 | MAIL-IN       | 510     | 2020-10-13
+ SANDERS           | DWAYNE EUGENE      | JEFFERSON    | 1122806025 | IN-PERSON     | 68      | 2020-10-28
+ SANDERS           | DWAYNE EUGENE      | JEFFERSON    | 1122806025 | MAIL-IN       | 68      | 2020-10-28
+ SANDERS           | RICHARD NELSON     | POLK         | 2122693868 | IN-PERSON     | 3       | 2020-10-30
+ SANDERS           | RICHARD NELSON     | TARRANT      | 2122693868 | IN-PERSON     | 2699    | 2020-10-14
+ SANTIKOS          | LUCILLE WAGGONER   | GOLIAD       | 2000176375 | MAIL-IN       | 42      | 2020-10-09
+ SANTIKOS          | LUCILLE WAGGONER   | GOLIAD       | 2000176375 | IN-PERSON     | 42      | 2020-10-23
+ SAWYER            | DONALD JOHN        | GOLIAD       | 1018204212 | IN-PERSON     | 43      | 2020-10-15
+ SAWYER            | DONALD JOHN        | GOLIAD       | 1018204212 | MAIL-IN       | 43      | 2020-10-09
+ SAWYER            | PATRICIA ANN       | GOLIAD       | 1018217618 | IN-PERSON     | 43      | 2020-10-15
+ SAWYER            | PATRICIA ANN       | GOLIAD       | 1018217618 | MAIL-IN       | 43      | 2020-10-09
+ SAXTON            | LOUISE             | WICHITA      | 1135554280 | MAIL-IN       | 405     | 2020-10-26
+ SAXTON            | LOUISE             | WICHITA      | 1135554280 | IN-PERSON     | 405     | 2020-10-14
+ SEIDLER           | ROSSLYN MONIC      | HARRIS       | 1115271012 | IN-PERSON     | 765     | 2020-10-20
+ SEIDLER           | ROSSLYN MONIC      | HARRIS       | 1115271012 | MAIL-IN       | 765     | 2020-10-29
+ SETH              | SUDHIR             | BEXAR        | 2162830212 | MAIL-IN       | 3082    | 2020-10-22
+ SETH              | SUDHIR             | BEXAR        | 2162830212 | IN-PERSON     | 3082    | 2020-10-22
+ SIMONS            | MERTON EUGENE      | COLLIN       | 1070650654 | MAIL-IN       | 157     | 2020-10-11
+ SIMONS            | MERTON EUGENE      | COLLIN       | 1070650654 | IN-PERSON     | 157     | 2020-10-28
+ SIMONS            | OLGA CORPUS        | WILSON       | 1024628193 | MAIL-IN       | 207     | 2020-10-07
+ SIMONS            | OLGA CORPUS        | WILSON       | 1024628193 | IN-PERSON     | 207     | 2020-10-26
+ SIMS              | WILLIAM RAY        | TARRANT      | 2161472449 | IN-PERSON     | 3164    | 2020-10-30
+ SIMS              | WILLIAM RAY        | WALKER       | 2161472449 | IN-PERSON     | 404     | 2020-10-29
+ SINGLETON         | ROBIN LYNN         | GOLIAD       | 1024694916 | IN-PERSON     | 32      | 2020-10-19
+ SINGLETON         | ROBIN LYNN         | GOLIAD       | 1024694916 | MAIL-IN       | 32      | 2020-10-09
+ SINGLETON-TURNER  | SANDRA GAYLE       | WILLIAMSON   | 2003692937 | IN-PERSON     | 381     | 2020-10-26
+ SINGLETON-TURNER  | SANDRA GAYLE       | WILLIAMSON   | 2003692937 | MAIL-IN       | 381     | 2020-10-13
+ SLOAN             | PAMELA A           | BEXAR        | 1103847247 | IN-PERSON     | 1111    | 2020-10-17
+ SLOAN             | PAMELA A           | BEXAR        | 1103847247 | IN-PERSON     | 3124    | 2020-10-15
+ SMARTT            | STEPHANIE SAVANNAH | DALLAS       | 1190020718 | IN-PERSON     | 2025    | 2020-10-28
+ SMARTT            | STEPHANIE SAVANNAH | DALLAS       | 1190020718 | MAIL-IN       | 2025    | 2020-10-20
+ SMITH             | ANDREW SHAWN       | ROBERTS      | 1182445132 | IN-PERSON     | 3       | 2020-10-19
+ SMITH             | ANNE MARIE         | FORT BEND    | 1182445132 | IN-PERSON     | 3133    | 2020-10-25
+ SMITH             | DAVID PARK         | KERR         | 1084842965 | MAIL-IN       | 405     | 2020-10-21
+ SMITH             | DAVID PARK         | KERR         | 1084842965 | IN-PERSON     | 405     | 2020-10-30
+ SMITH             | DIANE LEE          | LLANO        | 1167727112 | MAIL-IN       | 203     | 2020-10-04
+ SMITH             | DIANE LEE          | LLANO        | 1167727112 | IN-PERSON     | 203     | 2020-10-13
+ SMITH             | ELIZABETH BOMER    | BEXAR        | 1067851735 | IN-PERSON     | 1048    | 2020-10-22
+ SMITH             | ELIZABETH BOMER    | WICHITA      | 1067851735 | MAIL-IN       | 104     | 2020-10-26
+ SMITH             | FRED EDWARD        | GOLIAD       | 1009896461 | IN-PERSON     | 22      | 2020-10-16
+ SMITH             | FRED EDWARD        | GOLIAD       | 1009896461 | MAIL-IN       | 22      | 2020-10-09
+ SMITH             | JOHN DAVID         | TARRANT      | 1046117985 | IN-PERSON     | 2581    | 2020-10-21
+ SMITH             | JOHN DAVID         | WISE         | 1046117985 | IN-PERSON     | 24      | 2020-10-23
+ SMITH             | SHAQINA MONIQUE    | BEXAR        | 1203339359 | IN-PERSON     | 4194    | 2020-10-30
+ SMITH             | SHAQINA MONIQUE    | LIBERTY      | 1203339359 | IN-PERSON     | 26      | 2020-10-26
+ SMITH             | SHERRY HACKNEY     | TARRANT      | 1046756793 | IN-PERSON     | 3469    | 2020-10-20
+ SMITH             | SHERRY HACKNEY     | WASHINGTON   | 1046756793 | IN-PERSON     | 414     | 2020-10-20
+ STEPHENS          | MYRNA M            | MOTLEY       | 1128059099 | MAIL-IN       | 1       | 2020-10-21
+ STEPHENS          | MYRNA M            | MOTLEY       | 1128059099 | IN-PERSON     | 1       | 2020-10-21
+ STEPHENS          | ROBERT LEWIS       | HARRIS       | 1106052587 | IN-PERSON     | 168     | 2020-10-14
+ STEPHENS          | ROBERT LEWIS       | HARRIS       | 1106052587 | MAIL-IN       | 168     | 2020-10-09
+ STEVENSON         | ODELIA BENEFIELD   | GALVESTON    | 1033100774 | MAIL-IN       | 226     | 2020-10-09
+ STEVENSON         | ODELIA BENEFIELD   | GALVESTON    | 1033100774 | IN-PERSON     | 226     | 2020-10-27
+ STEWART           | RACHEL PAIGE       | SMITH        | 1212802060 | MAIL-IN       | 31      | 2020-10-29
+ STEWART           | RACHEL PAIGE       | SMITH        | 1212802060 | IN-PERSON     | 31      | 2020-10-30
+ STONE             | WAYNE AMEAL        | GOLIAD       | 2128294301 | MAIL-IN       | 21      | 2020-10-09
+ STONE             | WAYNE AMEAL        | GOLIAD       | 2128294301 | IN-PERSON     | 21      | 2020-10-16
+ STRONG            | JAMES L            | DALLAS       | 1081338271 | IN-PERSON     | 4032    | 2020-10-30
+ STRONG            | JAMES L            | DALLAS       | 1081338271 | MAIL-IN       | 4032    | 2020-10-04
+ TAPIA             | JESUS M            | UVALDE       | 2121715427 | MAIL-IN       | 9       | 2020-10-07
+ TAPIA             | JESUS M            | UVALDE       | 2121715427 | IN-PERSON     | 9       | 2020-10-30
+ TATE              | JERRY WELDON       | SMITH        | 1128471624 | IN-PERSON     | 37      | 2020-10-19
+ TATE              | JERRY WELDON       | SMITH        | 1128471624 | IN-PERSON     | 31      | 2020-10-26
+ TAYLOR            | CAROLYN MARIE      | POLK         | 1052189454 | MAIL-IN       | 20      | 2020-10-26
+ TAYLOR            | CAROLYN MARIE      | TARRANT      | 1052189454 | IN-PERSON     | 3193    | 2020-10-24
+ TEMPLE            | GRACE ANNE         | LAMAR        | 2121467897 | IN-PERSON     | 3C7G    | 2020-10-13
+ TEMPLE            | GRACE ANNE         | LAMAR        | 2121467897 | IN-PERSON     | 3C7G    | 2020-10-30
+ TEMPLE            | GRACE ANNE         | LAMAR        | 2121467897 | IN-PERSON     | 3C7G    | 2020-10-30
+ TERRANCE          | RACHELLE NEALY     | DALLAS       | 2162257728 | IN-PERSON     | 1307    | 2020-10-14
+ TERRANCE          | RACHELLE NEALY     | DALLAS       | 2162257728 | MAIL-IN       | 1307    | 2020-10-20
+ THAYER            | MARY ADKINS        | LAVACA       | 1102363936 | IN-PERSON     | 7       | 2020-10-20
+ THAYER            | MARY ADKINS        | LAVACA       | 1102363936 | MAIL-IN       | 7       | 2020-10-21
+ THOMSON           | BETTY JANIECE      | HARRIS       | 1111122324 | MAIL-IN       | 377     | 2020-10-29
+ THOMSON           | BETTY JANIECE      | HARRIS       | 1111122324 | IN-PERSON     | 377     | 2020-10-13
+ TILLISON          | JUDITH RAE         | GOLIAD       | 1018204038 | MAIL-IN       | 12      | 2020-10-09
+ TILLISON          | JUDITH RAE         | GOLIAD       | 1018204038 | IN-PERSON     | 12      | 2020-10-19
+ TINER             | PAMALA SUE         | WOOD         | 1035222864 | IN-PERSON     | 2-3     | 2020-10-28
+ TITTLE            | LINDA GALE         | GALVESTON    | 1150852663 | IN-PERSON     | 226     | 2020-10-20
+ TITTLE            | LINDA GALE         | GALVESTON    | 1150852663 | MAIL-IN       | 226     | 2020-10-16
+ TOBEY             | JANN SISCO         | BEXAR        | 1071591755 | MAIL-IN       | 3126    | 2020-10-09
+ TOBEY             | JANN SISCO         | BEXAR        | 1071591755 | IN-PERSON     | 3126    | 2020-10-22
+ TOMLINSON         | LARRY JOE          | KNOX         | 1013216554 | IN-PERSON     | 301     | 2020-10-19
+ TOMLINSON         | LARRY JOE          | KNOX         | 1013216554 | IN-PERSON     | 301     | 2020-10-19
+ TOMLINSON         | LARRY JOE          | KNOX         | 1013216554 | IN-PERSON     | 301     | 2020-10-19
+ TORRES            | AMALIA GARZA       | DALLAS       | 1141520165 | MAIL-IN       | 1073    | 2020-10-04
+ TORRES            | AMALIA GARZA       | DALLAS       | 1141520165 | IN-PERSON     | 1073    | 2020-10-16
+ TORRES            | MANUEL BERNARDINO  | FORT BEND    | 1099319396 | MAIL-IN       | 4030    | 2020-10-20
+ TORRES            | MANUEL BERNARDINO  | FORT BEND    | 1099319396 | IN-PERSON     | 4030    | 2020-10-14
+ TOTTY             | DON                | HARRIS       | 1104461165 | IN-PERSON     | 103     | 2020-10-13
+ TOTTY             | DON                | WISE         | 1104461165 | IN-PERSON     | 24      | 2020-10-30
+ TOVAR             | MARGARET LOVE      | BEXAR        | 1066250929 | IN-PERSON     | 2143    | 2020-10-29
+ TOVAR             | MARGARET LOVE      | BEXAR        | 1066250929 | MAIL-IN       | 2143    | 2020-10-24
+ TROWBRIDGE        | JACOB DENNIS       | RUSK         | 1010638004 | IN-PERSON     | 114     | 2020-10-30
+ TROWBRIDGE        | JACOB DENNIS       | RUSK         | 1010638004 | MAIL-IN       | 114     | 2020-10-14
+ TURNER            | WILLIAM EDGE       | COMAL        | 1017962050 | IN-PERSON     | 302     | 2020-10-20
+ TURNER            | WILLIAM EDGE       | GUADALUPE    | 1017962050 | IN-PERSON     | 208     | 2020-10-21
+ VALDEZ            | DELFINA            | FORT BEND    | 2143743010 | MAIL-IN       | 3122    | 2020-10-26
+ VALDEZ            | DELFINA            | HARRIS       | 2143743010 | MAIL-IN       | 140     | 2020-10-26
+ VALENZUELA        | JAIME ENRIQUE      | JIM WELLS    | 2000501846 | IN-PERSON     | 12      | 2020-10-15
+ VALENZUELA        | JAIME ENRIQUE      | JIM WELLS    | 2000501846 | IN-PERSON     | 12      | 2020-10-15
+ VALENZUELA        | JAIME ENRIQUE      | JIM WELLS    | 2000501846 | IN-PERSON     | 12      | 2020-10-15
+ VANDYKE           | LAURA L            | KENDALL      | 2168653581 | IN-PERSON     | 4100    | 2020-10-15
+ VANDYKE           | LAURA L            | KENDALL      | 2168653581 | MAIL-IN       | 4100    | 2020-10-15
+ VELAZQUEZ         | DAVID              | TRAVIS       | 1119683725 | IN-PERSON     | 254     | 2020-10-20
+ VELAZQUEZ         | DAVID              | WILLIAMSON   | 1119683725 | IN-PERSON     | 152     | 2020-10-30
+ VIERA             | JENNIFER           | HIDALGO      | 1146374473 | IN-PERSON     | 90      | 2020-10-14
+ VIERA             | JENNIFER           | HIDALGO      | 1146374473 | IN-PERSON     | 31      | 2020-10-26
+ VILLA JR          | JOSE LUIS          | BEXAR        | 1221608671 | IN-PERSON     | 3113    | 2020-10-15
+ VILLA JR          | JOSE LUIS          | BEXAR        | 1221608671 | MAIL-IN       | 3113    | 2020-10-26
+ VILLALOBOS        | ELIAS              | CALDWELL     | 1003962643 | MAIL-IN       | 401     | 2020-10-19
+ VILLALOBOS        | ELIAS              | CALDWELL     | 1003962643 | IN-PERSON     | 401     | 2020-10-16
+ VILLARREAL        | MARIA A            | HIDALGO      | 2153285822 | IN-PERSON     | 175     | 2020-10-22
+ VILLARREAL        | MARIA A            | SMITH        | 2153285822 | IN-PERSON     | 32      | 2020-10-28
+ VINCENT           | EDWARD ANTHONY     | HARRIS       | 1105837899 | MAIL-IN       | 156     | 2020-10-21
+ VINCENT           | EDWARD ANTHONY     | HARRIS       | 1105837899 | IN-PERSON     | 156     | 2020-10-29
+ VON DOHLEN        | PATRICIA R         | GOLIAD       | 1007114651 | MAIL-IN       | 21      | 2020-10-09
+ VON DOHLEN        | PATRICIA R         | GOLIAD       | 1007114651 | IN-PERSON     | 21      | 2020-10-17
+ VONDOHLEN         | MARY GAY           | GOLIAD       | 1023647325 | IN-PERSON     | 31      | 2020-10-16
+ VONDOHLEN         | MARY GAY           | GOLIAD       | 1023647325 | MAIL-IN       | 31      | 2020-10-09
+ VONDOHLEN         | TIMOTHY DON        | GOLIAD       | 1018217298 | IN-PERSON     | 21      | 2020-10-17
+ VONDOHLEN         | TIMOTHY DON        | GOLIAD       | 1018217298 | MAIL-IN       | 21      | 2020-10-09
+ VOOGD             | MICHAEL DAVID      | HARRIS       | 2138928541 | MAIL-IN       | 126     | 2020-10-18
+ VOOGD             | MICHAEL DAVID      | HARRIS       | 2138928541 | IN-PERSON     | 126     | 2020-10-24
+ VYSSOTSKI         | VLADIMIR N         | HARRIS       | 1117587496 | IN-PERSON     | 619     | 2020-10-27
+ VYSSOTSKI         | VLADIMIR N         | HARRIS       | 1117587496 | MAIL-IN       | 619     | 2020-10-23
+ WALLACE           | EILEEN RENZ        | WILLIAMSON   | 1137363922 | MAIL-IN       | 152     | 2020-10-16
+ WALLACE           | EILEEN RENZ        | WILLIAMSON   | 1137363922 | IN-PERSON     | 152     | 2020-10-15
+ WALLIS            | JESSE CALVIN       | BLANCO       | 1139520579 | MAIL-IN       | 303     | 2020-10-23
+ WALLIS            | JESSE CALVIN       | BLANCO       | 1139520579 | IN-PERSON     | 303     | 2020-10-23
+ WARE              | JOSEPH SYLVESTER   | HARRIS       | 1104145775 | IN-PERSON     | 421     | 2020-10-29
+ WARE              | JOSEPH SYLVESTER   | HARRIS       | 1104145775 | MAIL-IN       | 421     | 2020-10-30
+ WARNER            | CARLENE MERCHANT   | HARRIS       | 1111328050 | IN-PERSON     | 384     | 2020-10-30
+ WARNER            | CARLENE MERCHANT   | HARRIS       | 1111328050 | MAIL-IN       | 384     | 2020-10-23
+ WARNER            | DURWOOD PAUL       | SABINE       | 1010203217 | MAIL-IN       | 4       | 2020-10-23
+ WARNER            | DURWOOD PAUL       | SABINE       | 1010203217 | IN-PERSON     | 4       | 2020-10-23
+ WASHINGTON        | LARRY              | DALLAS       | 1078330685 | MAIL-IN       | 2301    | 2020-10-13
+ WASHINGTON        | LARRY              | DALLAS       | 1078330685 | IN-PERSON     | 2301    | 2020-10-13
+ WATSON            | DANNY EDWARD       | HARRIS       | 1104744446 | IN-PERSON     | 121     | 2020-10-27
+ WATSON            | DANNY EDWARD       | HARRIS       | 1104744446 | MAIL-IN       | 121     | 2020-10-26
+ WATSON SR         | LEO GOODMAN        | GRAYSON      | 1116251817 | IN-PERSON     | 304     | 2020-10-15
+ WATSON SR         | LEO GOODMAN        | HARRIS       | 1116251817 | MAIL-IN       | 567     | 2020-10-20
+ WATTS             | JAMES DELBERT      | CALDWELL     | 1003032361 | IN-PERSON     | 202     | 2020-10-13
+ WATTS             | JAMES DELBERT      | CALDWELL     | 1003032361 | MAIL-IN       | 202     | 2020-10-23
+ WEST              | JOYCE BUCK         | FANNIN       | 1197711066 | MAIL-IN       | 3       | 2020-10-26
+ WEST              | JOYCE E            | FANNIN       | 1197711066 | MAIL-IN       | 19      | 2020-10-26
+ WESTERFIELD       | JULIE ANN          | RANDALL      | 1026098175 | MAIL-IN       | 429     | 2020-10-30
+ WESTERFIELD       | JULIE ANN          | RANDALL      | 1026098175 | IN-PERSON     | 429     | 2020-10-24
+ WHITAKER          | DUSTIN JAMES       | RANDALL      | 1009432804 | MAIL-IN       | 324     | 2020-10-17
+ WHITAKER          | DUSTIN JAMES       | RANDALL      | 1009432804 | IN-PERSON     | 324     | 2020-10-22
+ WHITE             | LORRAINE MARIE     | DALLAS       | 1084529513 | IN-PERSON     | 3204    | 2020-10-15
+ WHITE             | LORRAINE MARIE     | DALLAS       | 1084529513 | MAIL-IN       | 3204    | 2020-10-15
+ WILKERSON         | RYAN EUGENE        | GALVESTON    | 1044371152 | IN-PERSON     | 460     | 2020-10-14
+ WILKERSON         | RYAN EUGENE        | TARRANT      | 1044371152 | IN-PERSON     | 4130    | 2020-10-20
+ WILLIAMS          | ELMER RAY          | DALLAS       | 1084109087 | MAIL-IN       | 3807    | 2020-10-19
+ WILLIAMS          | ELMER RAY          | DALLAS       | 1084109087 | IN-PERSON     | 3807    | 2020-10-19
+ WILLIAMS          | JAMES VELTON       | CASS         | 1022031249 | IN-PERSON     | 17      | 2020-10-30
+ WILLIAMS          | JAMES VELTON       | CASS         | 1022031249 | MAIL-IN       | 17      | 2020-10-30
+ WILLIAMS          | MARY ALBAUGH       | BEXAR        | 1071270780 | IN-PERSON     | 3146    | 2020-10-14
+ WILLIAMS          | MARY ALBAUGH       | COMAL        | 1071270780 | IN-PERSON     | 104     | 2020-10-14
+ WILLIAMS III      | JOHN SHARP         | PARKER       | 1182212989 | MAIL-IN       | 425     | 2020-10-26
+ WILLIAMS III      | JOHN SHARP         | PARKER       | 1182212989 | IN-PERSON     | 425     | 2020-10-14
+ WILLISON          | CHARLES ANDREW     | KNOX         | 1211022001 | IN-PERSON     | 401     | 2020-10-19
+ WILLISON          | CHARLES ANDREW     | KNOX         | 1211022001 | IN-PERSON     | 401     | 2020-10-19
+ WILLISON          | CHARLES ANDREW     | KNOX         | 1211022001 | MAIL-IN       | 401     | 2020-10-19
+ WILSON            | PATSY PAYNE        | DALLAS       | 1113101997 | IN-PERSON     | 3307    | 2020-10-30
+ WILSON            | PATSY PAYNE        | HARRIS       | 1113101997 | MAIL-IN       | 458     | 2020-10-22
+ WINTERS           | SYLVIA ANN         | HOOD         | 1036820221 | MAIL-IN       | 1       | 2020-10-27
+ WINTERS           | SYLVIA ANN         | HOOD         | 1036820221 | IN-PERSON     | 1       | 2020-10-16
+ WOOLEVER          | LOREN ALAN         | BELL         | 1011964767 | IN-PERSON     | 202     | 2020-10-24
+ WOOLEVER          | LOREN ALAN         | HAMILTON     | 1011964767 | MAIL-IN       | 202     | 2020-10-21
+ WOYCHESIN         | JEROME JOSEPH      | ROBERTSON    | 1191557044 | MAIL-IN       | 5       | 2020-10-05
+ WOYCHESIN         | JEROME JOSEPH      | ROBERTSON    | 1191557044 | IN-PERSON     | 5       | 2020-10-30
+ WRIGHT            | DONNIE M           | LAMAR        | 1002648170 | IN-PERSON     | 1G      | 2020-10-30
+ WRIGHT            | DONNIE M           | LAMAR        | 1002648170 | IN-PERSON     | 1F      | 2020-10-16
+ WRIGHT            | JOHN PRESLEY       | LAMAR        | 1002584750 | IN-PERSON     | 1E7C    | 2020-10-30
+ WRIGHT            | JOHN PRESLEY       | LAMAR        | 1002584750 | IN-PERSON     | 1A3B.N  | 2020-10-20
+ WRIGHT            | SHIRLEY            | LAMAR        | 2172146757 | IN-PERSON     | 1E.B    | 2020-10-28
+ WRIGHT            | SHIRLEY            | LAMAR        | 2172146757 | IN-PERSON     | 1E      | 2020-10-30
+ WRIGHT            | TRISHAE MONIQUE    | LAMAR        | 2136240029 | IN-PERSON     | 2B2A    | 2020-10-30
+ WRIGHT            | TRISHAE MONIQUE    | LAMAR        | 2136240029 | IN-PERSON     | 2C3A.C  | 2020-10-29
+ WRINKLE           | AUDREY ANNE        | LAMAR        | 1202364159 | IN-PERSON     | 1E.B    | 2020-10-16
+ WRINKLE           | AUDREY ANNE        | LAMAR        | 1202364159 | IN-PERSON     | 1E      | 2020-10-30
+ WRINKLE           | KY ALLEN           | LAMAR        | 1181061528 | IN-PERSON     | 1E.B    | 2020-10-13
+ WRINKLE           | KY ALLEN           | LAMAR        | 1181061528 | IN-PERSON     | 1E      | 2020-10-30
+ WYCHE IV          | SESSIA             | CAMERON      | 1072702480 | MAIL-IN       | 29      | 2020-10-15
+ WYCHE IV          | SESSIA             | CAMERON      | 1072702480 | IN-PERSON     | 29      | 2020-10-30
+ YARNELL           | CATANA ELAYNE      | LAMAR        | 2123868414 | IN-PERSON     | 1F.D    | 2020-10-16
+ YARNELL           | CATANA ELAYNE      | LAMAR        | 2123868414 | IN-PERSON     | 1G      | 2020-10-30
+ YEATMAN           | SHERRY DIAN        | LAMAR        | 1149156710 | IN-PERSON     | 1E      | 2020-10-30
+ YEATMAN           | SHERRY DIAN        | LAMAR        | 1149156710 | IN-PERSON     | 1E.B    | 2020-10-29
+ YORDAN            | RAUL               | BEXAR        | 1067023573 | IN-PERSON     | 3020    | 2020-10-29
+ YORDAN            | RAUL               | BEXAR        | 1067023573 | MAIL-IN       | 3020    | 2020-10-30
+ YORK              | MADELEINE          | HARRIS       | 1167364056 | IN-PERSON     | 435     | 2020-10-17
+ YORK              | MADELEINE          | HARRIS       | 1167364056 | MAIL-IN       | 435     | 2020-10-12
+ YOUNG             | AMBER LYNN         | LAMAR        | 2146491694 | IN-PERSON     | 1F.D    | 2020-10-13
+ YOUNG             | AMBER LYNN         | LAMAR        | 2146491694 | IN-PERSON     | 1G      | 2020-10-30
+ YOUNG             | DIANA MICHELLE     | LAMAR        | 2172162691 | IN-PERSON     | 1G      | 2020-10-30
+ YOUNG             | DIANA MICHELLE     | LAMAR        | 2172162691 | IN-PERSON     | 1F.D    | 2020-10-13
+ YOUNG             | ROBERT JEFFERSON   | LAMAR        | 1198397343 | IN-PERSON     | 1G      | 2020-10-30
+ YOUNG             | ROBERT JEFFERSON   | LAMAR        | 1198397343 | IN-PERSON     | 1F.D    | 2020-10-13
+ YOUNG             | ROLFE ROBERT       | HARRIS       | 1112684881 | MAIL-IN       | 439     | 2020-10-29
+ YOUNG             | ROLFE ROBERT       | HARRIS       | 1112684881 | IN-PERSON     | 439     | 2020-10-13
+ YOUNG             | RUSSELL LADELL     | LAMAR        | 2121471586 | IN-PERSON     | 1A3B.N  | 2020-10-13
+ YOUNG             | RUSSELL LADELL     | LAMAR        | 2121471586 | IN-PERSON     | 1E7C    | 2020-10-30
+ YOUNG             | STACI SHAWHART     | LAMAR        | 1021287170 | IN-PERSON     | 1D      | 2020-10-30
+ YOUNG             | STACI SHAWHART     | LAMAR        | 1021287170 | IN-PERSON     | 1D      | 2020-10-30
+ YOUNG             | STACI SHAWHART     | LAMAR        | 1021287170 | IN-PERSON     | 1A3B.N  | 2020-10-15
+ ZERMENO           | DAVID              | LAMAR        | 2153037495 | IN-PERSON     | 1E      | 2020-10-30
+ ZERMENO           | DAVID              | LAMAR        | 2153037495 | IN-PERSON     | 1E.B    | 2020-10-22
+ ZERMENO           | ESTELLA MARTINEZ   | GOLIAD       | 1005052069 | IN-PERSON     | 11      | 2020-10-16
+ ZERMENO           | ESTELLA MARTINEZ   | GOLIAD       | 1005052069 | MAIL-IN       | 11      | 2020-10-09
+ ZERMENO           | WILLIAM            | GOLIAD       | 1005052082 | MAIL-IN       | 11      | 2020-10-09
+ ZERMENO           | WILLIAM            | GOLIAD       | 1005052082 | IN-PERSON     | 11      | 2020-10-16
+(863 rows)
+
+SQL to Reproduce:
+
+        CREATE TABLE duplicate_voters (
+            last_name varchar, given_names varchar, county varchar, voter_id bigint,
+            voting_method varchar, precint varchar, recorded_on DATE);
+
+        INSERT INTO duplicate_voters
+            SELECT
+                last_name, given_names, county, voter_id,
+                voting_method, precinct, recorded_on
+            FROM voter_rolls_v2
+            WHERE voter_id IN (
+                SELECT voter_id
+                FROM voter_rolls_v2
+                WHERE voter_id != 0 AND voter_id IN (
+                    SELECT voter_id
+                    FROM voter_rolls_v2
+                    GROUP BY voter_id
+                    HAVING COUNT(*) > 1
+                )
+                GROUP BY county, voter_id, last_name, precinct, voting_method HAVING COUNT(*)=1
+            ) ORDER BY last_name, given_names, county;
+
+        INSERT INTO duplicate_voters
+            SELECT
+                last_name, given_names, county, voter_id,
+                voting_method, precinct, recorded_on
+            FROM voter_rolls_v2
+            WHERE voter_id != 0 AND voter_id IN (
+                SELECT voter_id
+                FROM voter_rolls_v2
+                WHERE voter_id NOT IN (
+                    SELECT voter_id FROM duplicate_voters
+                )
+                GROUP BY voter_id
+                HAVING COUNT(*) >= 3
+            ) ORDER BY last_name, given_names, county;
+
+    SELECT * FROM duplicate_voters ORDER BY last_name, given_names, county;
